@@ -73,7 +73,7 @@ h3{
 
 }
 .logo img {
-    height: 80px;
+    height: 100px;
     width: auto;
     margin-right: 10px;
 }
@@ -161,12 +161,11 @@ Menu::before {
 .Menu-content {
     text-align: center;
     z-index: 2;
-    color: white;
     font-size: 60px;
 }
 
 .Menu-content h1 {
-    font-size: 64px;
+    font-size: 50px;
     margin: 0;
     font-family: 'Kaushan Script';
 }
@@ -192,9 +191,12 @@ Menu::before {
     height: 90px;
     flex-shrink: 0;
     border-radius: 60px;
-    border: 1px solid #000;
+    border: 1px solid white;
     background: #664935;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    font-size: 30px;
+    font-family:Georgia, serif, bold;
+    color:white;
 }
 .coffee-button:hover {
     background: #948375;
@@ -205,9 +207,12 @@ Menu::before {
     height: 90px;
     flex-shrink: 0;
     border-radius: 60px;
-    border: 1px solid #000;
+    border: 1px solid white;
     background: #664935;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    font-size: 30px;
+    font-family:Georgia, serif, bold;
+    color:white;
     }  
 .tea-button:hover {
         background: #948375;
@@ -218,9 +223,12 @@ Menu::before {
     height: 90px;
     flex-shrink: 0;
     border-radius: 60px;
-    border: 1px solid #000;
+    border: 1px solid white;
     background: #664935;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    font-size: 30px;
+    font-family:Georgia, serif, bold;
+    color:white;
     }        
 .matcha-button:hover {
     background: #948375;
@@ -231,9 +239,12 @@ Menu::before {
     height: 90px;
     flex-shrink: 0;
     border-radius: 60px;
-    border: 1px solid #000;
+    border: 1px solid white;
     background: #664935;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    font-size: 30px;
+    font-family:Georgia, serif, bold;
+    color:white;
     }             
 .soda-button:hover {
     background: #948375;
@@ -244,9 +255,12 @@ Menu::before {
     height: 90px;
     flex-shrink: 0;
     border-radius: 60px;
-    border: 1px solid #000;
+    border: 1px solid white;
     background: #664935;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    font-size: 30px;
+    font-family:Georgia, serif, bold;
+    color:white;
      }               
 .juice-button:hover {
     background: #948375;
@@ -257,11 +271,14 @@ Menu::before {
     height: 90px;
     flex-shrink: 0;
     border-radius: 60px;
-    border: 1px solid #000;
+    border: 1px solid white;
     background: #664935;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     margin-left: 350px;
     margin-top: -472px;
+    font-size: 30px;
+    font-family:Georgia, serif, bold;
+    color:white;
      }                  
 .sandwhich-button:hover {
     background: #948375;
@@ -272,10 +289,13 @@ Menu::before {
     height: 90px;
     flex-shrink: 0;
     border-radius: 60px;
-    border: 1px solid #000;
+    border: 1px solid white;
     background: #664935;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     margin-left: 350px;
+    font-size: 30px;
+    font-family:Georgia, serif, bold;
+    color:white;
     }                         
 .pasta-button:hover {
     background: #948375;
@@ -286,10 +306,13 @@ Menu::before {
     height: 90px;
     flex-shrink: 0;
     border-radius: 60px;
-    border: 1px solid #000;
+    border: 1px solid white;
     background: #664935;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     margin-left: 350px;
+    font-size: 30px;
+    font-family:Georgia, serif, bold;
+    color:white;
     }                            
 .pastry-button:hover {
     background: #948375;
@@ -300,10 +323,13 @@ Menu::before {
     height: 90px;
     flex-shrink: 0;
     border-radius: 60px;
-    border: 1px solid #000;
+    border: 1px solid white ;
     background: #664935;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     margin-left: 350px;
+    font-size: 30px;
+    font-family:Georgia, serif, bold;
+    color:white;
     }                             
 .potato-button:hover {
     background: #948375;
@@ -482,7 +508,6 @@ Menu::before {
     text-align: center;
     margin-top: 80px;
     font-size: 22px;
-
 }
 
 .category img {
@@ -509,11 +534,10 @@ Menu::before {
     top: -30px;
     left: 50%;
     transform: translateX(-50%);
-    background-color: #5f3e24; 
-    color: white;
-    padding: 5px 10px;
+    color: solid #5f3e24;
+    padding: 1px;
     border-radius: 50px;
-    font-size: 1em;
+    font-size: 30px;
     z-index: 10; 
 }
 
