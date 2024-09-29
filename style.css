@@ -560,7 +560,7 @@ Menu::before {
     margin: 0 auto; 
 }
 
-.about-batirol {
+.about-batirol2 {
     flex-grow: 1; 
 }
 
@@ -573,12 +573,14 @@ Menu::before {
     font-weight: 400;
     line-height: normal;
     margin-bottom: 20px;
+    
 
    
 }
 
 
 .img-batirol2 {
+    margin-top: 80px;
     width: 274px;
     height: 274px;
     flex-shrink: 0; 
@@ -598,13 +600,11 @@ Menu::before {
 
 /*batirol 3*/
 .batirol-section3 {
-   
     display: flex; 
     align-items: flex-start; 
     gap: 20px; 
     max-width: 1200px;
-    margin: 0 auto;
-    padding: top 100px right 50px bottom 100px left 50px;
+    margin: 0 auto; 
 }
 
 .about-batirol3 {
@@ -612,14 +612,62 @@ Menu::before {
 }
 
 .about-batirol3 p {
-color: #000;
-text-align: justify;
-font-family: Labrada;
-font-size: 24.864px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-margin-bottom: 20px;
+    color: #000;
+    text-align: justify;
+    font-family: Labrada;
+    font-size: 24.86px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 20px;
+    margin-top: 100px;
 
    
 }
+.img-batirol3 {
+    margin-top: 10px;
+    width: 274px;
+    height: 274px;
+    flex-shrink: 0; 
+}
+
+.img-batirol3 a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 15.657px;
+    background: url(batirol3.jpg) lightgray 50% / cover no-repeat;
+
+
+
+
+.batirol-section4 {
+    display: flex; 
+    align-items: flex-start; 
+    gap: 20px; 
+    max-width: 1200px;
+    margin: 0 auto; 
+}
+
+.about-batirol4 {
+    flex-grow: 1; 
+}
+
+.about-batirol4 p {
+    color: #000;
+    text-align: justify;
+    font-family: Labrada;
+    font-size: 24.86px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 20px;
+    margin-left: 300px;
+    margin-right: 300px;
+
+   
+}
+
+
+
+
