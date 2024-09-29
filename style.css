@@ -2,6 +2,7 @@ body {
     margin: 0 auto;
     padding: 0;
     font-family: 'Kaushan Script', cursive;
+    background-color:#B99976;
 }
 
 
@@ -161,6 +162,7 @@ Menu::before {
     text-align: center;
     z-index: 2;
     color: white;
+    font-size: 60px;
 }
 
 .Menu-content h1 {
@@ -181,11 +183,13 @@ Menu::before {
     display: flex;
     flex-direction: column;
     gap: 15px;
+    margin-left: 170px;
+    margin-top: 200px;
 }
 
 .coffee-button {
     width: 296px;
-    height: 81px;
+    height: 90px;
     flex-shrink: 0;
     border-radius: 60px;
     border: 1px solid #000;
@@ -198,7 +202,7 @@ Menu::before {
 }
 .tea-button {
     width: 296px;
-    height: 81px;
+    height: 90px;
     flex-shrink: 0;
     border-radius: 60px;
     border: 1px solid #000;
@@ -211,7 +215,7 @@ Menu::before {
 
 .matcha-button {
     width: 296px;
-    height: 81px;
+    height: 90px;
     flex-shrink: 0;
     border-radius: 60px;
     border: 1px solid #000;
@@ -224,7 +228,7 @@ Menu::before {
 
 .soda-button {
     width: 296px;
-    height: 81px;
+    height: 90px;
     flex-shrink: 0;
     border-radius: 60px;
     border: 1px solid #000;
@@ -237,7 +241,7 @@ Menu::before {
 
 .juice-button {
     width: 296px;
-    height: 81px;
+    height: 90px;
     flex-shrink: 0;
     border-radius: 60px;
     border: 1px solid #000;
@@ -250,12 +254,14 @@ Menu::before {
 
 .sandwhich-button {
     width: 296px;
-    height: 81px;
+    height: 90px;
     flex-shrink: 0;
     border-radius: 60px;
     border: 1px solid #000;
     background: #664935;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    margin-left: 350px;
+    margin-top: -472px;
      }                  
 .sandwhich-button:hover {
     background: #948375;
@@ -263,12 +269,13 @@ Menu::before {
 
 .pasta-button {
     width: 296px;
-    height: 81px;
+    height: 90px;
     flex-shrink: 0;
     border-radius: 60px;
     border: 1px solid #000;
     background: #664935;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    margin-left: 350px;
     }                         
 .pasta-button:hover {
     background: #948375;
@@ -276,12 +283,13 @@ Menu::before {
 
 .pastry-button {
     width: 296px;
-    height: 81px;
+    height: 90px;
     flex-shrink: 0;
     border-radius: 60px;
     border: 1px solid #000;
     background: #664935;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    margin-left: 350px;
     }                            
 .pastry-button:hover {
     background: #948375;
@@ -289,21 +297,23 @@ Menu::before {
 
 .potato-button {
     width: 296px;
-    height: 81px;
+    height: 90px;
     flex-shrink: 0;
     border-radius: 60px;
     border: 1px solid #000;
     background: #664935;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    margin-left: 350px;
     }                             
 .potato-button:hover {
     background: #948375;
         }
 
 .image-container {
-    margin-left: 50px;
-    width: 400px;
-    height: 300px;
+    margin-left: 1000px;
+    margin-top:-600px;
+    width: 1500px;
+    height: 800px;
     background-color: #bfa690;
     border-radius: 25px;
     display: flex;
@@ -518,6 +528,9 @@ Menu::before {
     font-weight: 700;
     line-height: normal;
     margin-bottom: 20px;
+    margin-left:  auto;
+    margin-right: auto;
+    text-align: center;
 }
 
 
