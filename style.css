@@ -14,6 +14,7 @@ header {
     position: relative;
     z-index: 10;
     
+    
 }
 
 /* Logo Section */
@@ -25,8 +26,8 @@ header {
     width: 154px;
             height: 88px;
             position: absolute;
-            top: 15px;
-            left: 187px;
+            top: 25px;
+            left:150px;
             gap: 0px;
             opacity: 1; 
             font-family: 'Italianno', cursive;
@@ -58,7 +59,7 @@ h3{
     top: 270px;
     left: 1200px;
     gap: 0px;
-    opacity: 1; 
+    opacity: 1.3; 
     font-family: 'Kaushan Script', cursive; 
     font-size: 80px;
     font-weight: 400;
@@ -87,7 +88,7 @@ nav ul li {
 nav ul li a {
     text-decoration: none;
     color: white;
-    font-size: 18px;
+    font-size: 25px;
 }
 
 nav ul li a:hover {
@@ -442,14 +443,14 @@ Menu::before {
 .blog-categories {
     text-align: center;
     font-family: "Kaushan Script";
-    height: 1024px;
-    width: 2300px;
+    height: 100%;
+    width: 100%;
     background-color: #d4b391; 
     padding: 20px;
 }
 
 .blog-categories h1 {
-    font-size: 2.5em;
+    font-size: 80px;
     margin-bottom: 20px;
     color: #5f3e24; 
 }
@@ -457,18 +458,21 @@ Menu::before {
 .category-row {
     display: flex;
     justify-content: center;
-    gap: 60px;
-    margin-bottom: 20px;
+    gap: 100px;
+    margin-bottom: 50px;
 }
 
 .category {
     position: relative;
     text-align: center;
+    margin-top: 80px;
+    font-size: 22px;
 }
 
 .category img {
     width: 300px;
     height: 300px;
+    margin: 20px;
     border-radius: 9px;
     transition: transform 0.3s ease;
 }
