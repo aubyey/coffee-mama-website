@@ -12,11 +12,14 @@ header {
     align-items: center;
     padding: 15px 50px;
     position: relative;
-    z-index: 10;
-    
-    
+    z-index: 10;   
 }
 
+footer{
+    background-color: #CEB8A1;
+    justify-content:flex-start;
+    height: 100px;
+}
 /* Logo Section */
 .logo h1 {
     font-family: 'Italianno', cursive;
@@ -447,6 +450,8 @@ Menu::before {
     width: 100%;
     background-color: #d4b391; 
     padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .blog-categories h1 {
@@ -467,6 +472,7 @@ Menu::before {
     text-align: center;
     margin-top: 80px;
     font-size: 22px;
+
 }
 
 .category img {
@@ -475,6 +481,8 @@ Menu::before {
     margin: 20px;
     border-radius: 9px;
     transition: transform 0.3s ease;
+    margin-left: auto;
+    margin-right: auto;
 }
 .category img:hover {
     transform: scale(1.1); 
