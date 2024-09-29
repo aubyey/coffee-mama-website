@@ -447,6 +447,8 @@ Menu::before {
     width: 100%;
     background-color: #d4b391; 
     padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .blog-categories h1 {
@@ -467,6 +469,7 @@ Menu::before {
     text-align: center;
     margin-top: 80px;
     font-size: 22px;
+
 }
 
 .category img {
@@ -475,6 +478,8 @@ Menu::before {
     margin: 20px;
     border-radius: 9px;
     transition: transform 0.3s ease;
+    margin-left: auto;
+    margin-right: auto;
 }
 .category img:hover {
     transform: scale(1.1); 
