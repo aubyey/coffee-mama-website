@@ -2,6 +2,7 @@ body {
     margin: 0 auto;
     padding: 0;
     font-family: 'Kaushan Script', cursive;
+    background-color:#B99976;
 }
 
 
@@ -72,7 +73,7 @@ h3{
 
 }
 .logo img {
-    height: 80px;
+    height: 100px;
     width: auto;
     margin-right: 10px;
 }
@@ -160,11 +161,11 @@ Menu::before {
 .Menu-content {
     text-align: center;
     z-index: 2;
-    color: white;
+    font-size: 60px;
 }
 
 .Menu-content h1 {
-    font-size: 64px;
+    font-size: 50px;
     margin: 0;
     font-family: 'Kaushan Script';
 }
@@ -181,16 +182,21 @@ Menu::before {
     display: flex;
     flex-direction: column;
     gap: 15px;
+    margin-left: 170px;
+    margin-top: 200px;
 }
 
 .coffee-button {
     width: 296px;
-    height: 81px;
+    height: 90px;
     flex-shrink: 0;
     border-radius: 60px;
-    border: 1px solid #000;
+    border: 1px solid white;
     background: #664935;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    font-size: 30px;
+    font-family:Georgia, serif, bold;
+    color:white;
 }
 .coffee-button:hover {
     background: #948375;
@@ -198,12 +204,15 @@ Menu::before {
 }
 .tea-button {
     width: 296px;
-    height: 81px;
+    height: 90px;
     flex-shrink: 0;
     border-radius: 60px;
-    border: 1px solid #000;
+    border: 1px solid white;
     background: #664935;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    font-size: 30px;
+    font-family:Georgia, serif, bold;
+    color:white;
     }  
 .tea-button:hover {
         background: #948375;
@@ -211,12 +220,15 @@ Menu::before {
 
 .matcha-button {
     width: 296px;
-    height: 81px;
+    height: 90px;
     flex-shrink: 0;
     border-radius: 60px;
-    border: 1px solid #000;
+    border: 1px solid white;
     background: #664935;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    font-size: 30px;
+    font-family:Georgia, serif, bold;
+    color:white;
     }        
 .matcha-button:hover {
     background: #948375;
@@ -224,12 +236,15 @@ Menu::before {
 
 .soda-button {
     width: 296px;
-    height: 81px;
+    height: 90px;
     flex-shrink: 0;
     border-radius: 60px;
-    border: 1px solid #000;
+    border: 1px solid white;
     background: #664935;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    font-size: 30px;
+    font-family:Georgia, serif, bold;
+    color:white;
     }             
 .soda-button:hover {
     background: #948375;
@@ -237,12 +252,15 @@ Menu::before {
 
 .juice-button {
     width: 296px;
-    height: 81px;
+    height: 90px;
     flex-shrink: 0;
     border-radius: 60px;
-    border: 1px solid #000;
+    border: 1px solid white;
     background: #664935;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    font-size: 30px;
+    font-family:Georgia, serif, bold;
+    color:white;
      }               
 .juice-button:hover {
     background: #948375;
@@ -250,12 +268,17 @@ Menu::before {
 
 .sandwhich-button {
     width: 296px;
-    height: 81px;
+    height: 90px;
     flex-shrink: 0;
     border-radius: 60px;
-    border: 1px solid #000;
+    border: 1px solid white;
     background: #664935;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    margin-left: 350px;
+    margin-top: -472px;
+    font-size: 30px;
+    font-family:Georgia, serif, bold;
+    color:white;
      }                  
 .sandwhich-button:hover {
     background: #948375;
@@ -263,12 +286,16 @@ Menu::before {
 
 .pasta-button {
     width: 296px;
-    height: 81px;
+    height: 90px;
     flex-shrink: 0;
     border-radius: 60px;
-    border: 1px solid #000;
+    border: 1px solid white;
     background: #664935;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    margin-left: 350px;
+    font-size: 30px;
+    font-family:Georgia, serif, bold;
+    color:white;
     }                         
 .pasta-button:hover {
     background: #948375;
@@ -276,12 +303,16 @@ Menu::before {
 
 .pastry-button {
     width: 296px;
-    height: 81px;
+    height: 90px;
     flex-shrink: 0;
     border-radius: 60px;
-    border: 1px solid #000;
+    border: 1px solid white;
     background: #664935;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    margin-left: 350px;
+    font-size: 30px;
+    font-family:Georgia, serif, bold;
+    color:white;
     }                            
 .pastry-button:hover {
     background: #948375;
@@ -289,21 +320,26 @@ Menu::before {
 
 .potato-button {
     width: 296px;
-    height: 81px;
+    height: 90px;
     flex-shrink: 0;
     border-radius: 60px;
-    border: 1px solid #000;
+    border: 1px solid white ;
     background: #664935;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    margin-left: 350px;
+    font-size: 30px;
+    font-family:Georgia, serif, bold;
+    color:white;
     }                             
 .potato-button:hover {
     background: #948375;
         }
 
 .image-container {
-    margin-left: 50px;
-    width: 400px;
-    height: 300px;
+    margin-left: 1000px;
+    margin-top:-600px;
+    width: 1500px;
+    height: 800px;
     background-color: #bfa690;
     border-radius: 25px;
     display: flex;
@@ -321,10 +357,9 @@ Menu::before {
 /* ABOUT US(ABOUT TCM) */
 
 .about-tcm {
-    width: 1440px;
+    width: 100%;
     height: 2400px;
-    flex-shrink: 0;
-    background-color: #744F35;  
+    flex-shrink: 0; 
     position: relative; 
 }
 
@@ -333,15 +368,15 @@ Menu::before {
     width: 309px;
     height: 45px;
     flex-shrink: 0;
-    color: #FFF;
+    color:#27160f;
     font-family: 'Labrada';
-    font-size: 30px;
+    font-size: 50px;
     font-weight: 700;
     line-height: 45px; 
-    margin: 0;
-    position: absolute; 
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
     top: 50px; 
-    left: 50px;
 }
 
 /* Paragraph Styling */
@@ -472,7 +507,6 @@ Menu::before {
     text-align: center;
     margin-top: 80px;
     font-size: 22px;
-
 }
 
 .category img {
@@ -499,11 +533,10 @@ Menu::before {
     top: -30px;
     left: 50%;
     transform: translateX(-50%);
-    background-color: #5f3e24; 
-    color: white;
-    padding: 5px 10px;
+    color: solid #5f3e24;
+    padding: 1px;
     border-radius: 50px;
-    font-size: 1em;
+    font-size: 30px;
     z-index: 10; 
 }
 
@@ -518,6 +551,9 @@ Menu::before {
     font-weight: 700;
     line-height: normal;
     margin-bottom: 20px;
+    margin-left:  auto;
+    margin-right: auto;
+    text-align: center;
 }
 
 
