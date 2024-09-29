@@ -1,0 +1,624 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Kaushan Script', cursive;
+}
+
+
+header {
+    background-color: #CEB8A1; /*para sa background ng navigation bar*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    position: relative;
+    z-index: 10;
+    
+}
+
+/* Logo Section */
+.logo h1 {
+    font-family: 'Italianno', cursive;
+    font-size: 48px;
+    color: white;
+    margin: 0;
+    width: 154px;
+            height: 88px;
+            position: absolute;
+            top: 15px;
+            left: 187px;
+            gap: 0px;
+            opacity: 1; 
+            font-family: 'Italianno', cursive;
+            font-size: 48px;
+            font-weight: 400;
+            line-height: 60px;
+            text-align: left;
+   
+}
+h2{
+    width: 865px;
+            height: 270px;
+            position: absolute; 
+            top: 229px;
+            left: 509px;
+            gap: 0px;
+            opacity: 1; 
+            font-family: 'Kaushan Script', cursive; 
+            font-size: 96px;
+            font-weight: 400;
+            line-height: 139.3px;
+            text-align: center;
+
+}
+h3{
+    width: 865px;
+    height: 270px;
+    position: absolute; 
+    top: 343px;
+    left: 509px;
+    gap: 0px;
+    opacity: 1; 
+    font-family: 'Kaushan Script', cursive; 
+    font-size: 96px;
+    font-weight: 400;
+    line-height: 139.3px;
+    text-align: center;
+
+}
+.logo img {
+    height: 80px;
+    width: auto;
+    margin-right: 10px;
+}
+
+/* Navigation Bar */
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    color: #f39c12;
+}
+
+/* TCM Section */
+.TCM {
+    background-image: url(coffeebackground.jpeg); 
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.TCM::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); 
+    z-index: 1;
+}
+
+.TCM-content {
+    text-align: center;
+    z-index: 2;
+    color: white;
+}
+
+.TCM-content h1 {
+    font-size: 64px;
+    margin: 0;
+    font-family: 'Kaushan Script';
+}
+
+.TCM-content h1 span {
+    display: block;
+}
+
+/* Sa Menu na Page*/
+Menu::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: 27160F; 
+    z-index: 1;
+}
+.Menu-section{
+    background-color: #27160f; 
+    background-position: center; 
+    height: 100vh; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.Menu-content {
+    text-align: center;
+    z-index: 2;
+    color: white;
+}
+
+.Menu-content h1 {
+    font-size: 64px;
+    margin: 0;
+    font-family: 'Kaushan Script';
+}
+
+.Menu-content h1 span {
+    display: block;
+}
+
+
+
+
+/*Menu Buttons*/
+.menu {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.coffee-button {
+    width: 296px;
+    height: 81px;
+    flex-shrink: 0;
+    border-radius: 60px;
+    border: 1px solid #000;
+    background: #664935;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.coffee-button:hover {
+    background: #948375;
+
+}
+.tea-button {
+    width: 296px;
+    height: 81px;
+    flex-shrink: 0;
+    border-radius: 60px;
+    border: 1px solid #000;
+    background: #664935;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    }  
+.tea-button:hover {
+        background: #948375;
+    }
+
+.matcha-button {
+    width: 296px;
+    height: 81px;
+    flex-shrink: 0;
+    border-radius: 60px;
+    border: 1px solid #000;
+    background: #664935;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    }        
+.matcha-button:hover {
+    background: #948375;
+    }
+
+.soda-button {
+    width: 296px;
+    height: 81px;
+    flex-shrink: 0;
+    border-radius: 60px;
+    border: 1px solid #000;
+    background: #664935;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    }             
+.soda-button:hover {
+    background: #948375;
+    }
+
+.juice-button {
+    width: 296px;
+    height: 81px;
+    flex-shrink: 0;
+    border-radius: 60px;
+    border: 1px solid #000;
+    background: #664935;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+     }               
+.juice-button:hover {
+    background: #948375;
+    }
+
+.sandwhich-button {
+    width: 296px;
+    height: 81px;
+    flex-shrink: 0;
+    border-radius: 60px;
+    border: 1px solid #000;
+    background: #664935;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+     }                  
+.sandwhich-button:hover {
+    background: #948375;
+    }
+
+.pasta-button {
+    width: 296px;
+    height: 81px;
+    flex-shrink: 0;
+    border-radius: 60px;
+    border: 1px solid #000;
+    background: #664935;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    }                         
+.pasta-button:hover {
+    background: #948375;
+     }
+
+.pastry-button {
+    width: 296px;
+    height: 81px;
+    flex-shrink: 0;
+    border-radius: 60px;
+    border: 1px solid #000;
+    background: #664935;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    }                            
+.pastry-button:hover {
+    background: #948375;
+    }
+
+.potato-button {
+    width: 296px;
+    height: 81px;
+    flex-shrink: 0;
+    border-radius: 60px;
+    border: 1px solid #000;
+    background: #664935;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    }                             
+.potato-button:hover {
+    background: #948375;
+        }
+
+.image-container {
+    margin-left: 50px;
+    width: 400px;
+    height: 300px;
+    background-color: #bfa690;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#display-image {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 15px;
+}
+
+
+/* ABOUT US(ABOUT TCM) */
+
+.about-tcm {
+    width: 1440px;
+    height: 2400px;
+    flex-shrink: 0;
+    background-color: #744F35;  
+    position: relative; 
+}
+
+/* ABOUT TCM H2 Styling */
+.about-tcm h2 {
+    width: 309px;
+    height: 45px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: 'Labrada';
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 45px; 
+    margin: 0;
+    position: absolute; 
+    top: 50px; 
+    left: 50px;
+}
+
+/* Paragraph Styling */
+.about-text {
+    font-family: 'Labrada', serif;
+    font-size: 14px;
+    width: 571px;
+    height: auto; 
+    position: absolute;
+    left: 181px;
+    top: 324px;
+    line-height: 1.6;
+    color: white;
+    overflow: hidden;
+}
+
+/* Image Styling */
+.about-tcmImg {
+    position: absolute;
+    left: 803px;
+    top: 273px;
+    width: 540px;
+    height: 374px;
+}
+
+.about-tcmImg img {
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+    object-fit: cover;
+}
+
+/* About TCM Bio Section */
+.tcm-bio1 {
+    position: relative;
+}
+
+.tcm-bio1 img {
+    position: absolute;
+    left: 187px;
+    top: 715px;
+    width: 271px;
+    height: 268px;
+    border-radius: 30px;
+    object-fit: cover;
+}
+
+.tcm-bio1 h3 {
+    position: absolute;
+    left: 508px;
+    top: 714px;
+    width: 309px;
+    height: 45px;
+    font-family: 'Labrada', serif;
+    font-size: 30px;
+    line-height: 45px;
+    margin: 0;
+}
+
+.tcmbio-text1 {
+    position: absolute;
+    left: 508px;
+    top: 819px;
+    width: 805px;
+    height: auto; 
+    font-family: 'Labrada', serif;
+    font-size: 14px;
+    line-height: 1.6; 
+    color: white;
+    overflow: hidden;
+}
+
+/* Bio Section 2 */
+.tcmbio-text2 {
+    position: absolute;
+    left: 187px;
+    top: 1059px;
+    width: 1139px;
+    height: auto;
+    font-family: 'Labrada', serif;
+    font-size: 14px;
+    line-height: 1.6;
+    color: white;
+    overflow: hidden;
+}
+
+.tcmbio-text2 h3 {
+    position: absolute;
+    left: 508px;
+    top: 744px;
+    width: 309px;
+    height: 45px;
+    font-family: 'Labrada';
+    font-size: 24px;
+    line-height: 45px;
+    margin: 0;
+}
+
+
+
+/*--------------BLOG---------------*/
+.blog-categories {
+    text-align: center;
+    font-family: "Kaushan Script";
+    height: 1024px;
+    width: 2300px;
+    background-color: #d4b391; 
+    padding: 20px;
+}
+
+.blog-categories h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #5f3e24; 
+}
+
+.category-row {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    margin-bottom: 20px;
+}
+
+.category {
+    position: relative;
+    text-align: center;
+}
+
+.category img {
+    width: 300px;
+    height: 300px;
+    border-radius: 9px;
+    transition: transform 0.3s ease;
+}
+.category img:hover {
+    transform: scale(1.1); 
+}
+
+
+
+
+
+
+/* Badge style */
+.badge {
+    position: absolute;
+    top: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #5f3e24; 
+    color: white;
+    padding: 5px 10px;
+    border-radius: 50px;
+    font-size: 1em;
+    z-index: 10; 
+}
+
+
+/*----------BATIROL------------------*/
+.batirol-content h1 {
+    color: #000;
+    text-align: center;
+    font-family: Labrada;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 20px;
+}
+
+
+.batirol-section {
+    display: flex; 
+    align-items: flex-start; 
+    gap: 20px; 
+    max-width: 1200px;
+    margin: 0 auto; 
+}
+
+.about-batirol {
+    flex-grow: 1; 
+}
+
+.about-batirol p {
+    color: #000;
+    text-align: justify;
+    font-family: Labrada;
+    font-size: 24.86px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 20px;
+}
+
+
+.img-batirol {
+    width: 274px;
+    height: 274px;
+    flex-shrink: 0; 
+}
+
+.img-batirol a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 15.657px;
+    background: url('batirol1.jpg') lightgray 50% / cover no-repeat;
+}
+
+.batirol-section {
+    padding: 20px;
+}
+
+/*section ng batirol*/
+.batirol-section2 {
+    display: flex; 
+    align-items: flex-start; 
+    gap: 20px; 
+    max-width: 1200px;
+    margin: 0 auto; 
+}
+
+.about-batirol {
+    flex-grow: 1; 
+}
+
+.about-batirol2 p {
+    color: #000;
+    text-align: justify;
+    font-family: Labrada;
+    font-size: 24.86px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 20px;
+
+   
+}
+
+
+.img-batirol2 {
+    width: 274px;
+    height: 274px;
+    flex-shrink: 0; 
+}
+
+.img-batirol2 a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 15.657px;
+    background: url(batirol2.jpg) lightgray 50% / cover no-repeat;
+}
+
+.batirol-section2 {
+    padding: 20px;
+}
+
+/*batirol 3*/
+.batirol-section3 {
+   
+    display: flex; 
+    align-items: flex-start; 
+    gap: 20px; 
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: top 100px right 50px bottom 100px left 50px;
+}
+
+.about-batirol3 {
+    flex-grow: 1; 
+}
+
+.about-batirol3 p {
+color: #000;
+text-align: justify;
+font-family: Labrada;
+font-size: 24.864px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-bottom: 20px;
+
+   
+}
