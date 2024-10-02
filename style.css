@@ -169,7 +169,6 @@ Menu::before {
     top: 0;
     left: 0;
     width: auto;
-    background-color: 27160F; 
     z-index: 1;
 }
 .Menu-section{
