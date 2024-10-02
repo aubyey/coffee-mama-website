@@ -514,6 +514,36 @@ Menu::before {
 }
 
 
+/*----TCD*-----*/
+.tcd-bio1 {
+    position: relative;
+    
+}
+
+.tcdbio-text1 {
+    position: absolute;
+    left: 460px;
+    top: 1150px;
+    margin-right: 50px;
+    width: 830px;
+    height: auto; 
+    font-family: 'Labrada', serif;
+    font-size: 18px;
+    line-height: 1.6; 
+    color: white;
+    overflow: hidden;
+}
+
+.tcd-bio1 img {
+    position: absolute;
+    left: 120px;
+    top: 615px;
+    width: 271px;
+    height: 1100px;
+    border-radius: 30px;
+    object-fit: cover;
+}
+
 
 /*--------------BLOG---------------*/
 .blog-categories {
@@ -715,7 +745,8 @@ Menu::before {
     width: 200px;
     height: 200px;
     flex-shrink: 0; 
-    margin-right: 70px;
+    margin-right: 300px;
+
 }
 
 .img-batirol3 a {
@@ -857,7 +888,7 @@ Menu::before {
     width: 200px;
     height: 200px;
     flex-shrink: 0; 
-    margin-right:150px;
+    margin-right:300px;
 }
 
 .img-batirol7 a {
@@ -865,7 +896,7 @@ Menu::before {
     width: 100%;
     height: 100%;
     border-radius: 15.657px;
-    background: url(batirol5.jpg) lightgray 50% / cover no-repeat;
+    background: url(batirol7.jpg) lightgray 50% / cover no-repeat;
 }
 
 /*batirol8*/
@@ -894,6 +925,1320 @@ Menu::before {
     width:1150px;
 }
 
+
+
+
+
+
+/*----------USED COFFEE GROUND sa BLOG*/
+.cfgrounds-content h1 {
+    color: #000;
+    text-align: center;
+    font-family: Labrada;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 20px;
+    margin-left:  auto;
+    margin-right: auto;
+    text-align: center;
+}
+/*RIGHTTTTT*/
+.cfgrounds-section {
+    display: flex; 
+    gap: 20px;
+}
+
+.about-cfgrounds {
+    flex-grow: 1; 
+}
+
+.about-cfgrounds p {
+    color: #000;
+    text-align: justify;
+    font-family: Labrada;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 20px;
+    margin-top: 40px;
+    width:940px;
+    margin-left:150px;
+   
+}
+
+
+.img-cfrgounds {
+    width:500px;
+    height:100px;
+    flex-shrink: 0; 
+  
+
+
+}
+
+.img-cfgrounds a {
+    display: block;
+    font-size: 15px;
+    width: 200px;
+    height: 200px;
+    border-radius: 15.657px;
+    background: url(cfgrounds.jpg) lightgray 50% / cover no-repeat;
+    margin-right: 150px;
+    margin-top: 50px;
+}
+
+.cfgrounds-section {
+    padding: 10px;
+}
+
+/*section 2 cf LEEEEFT*/ 
+.cfgrounds-section2 {
+    display: flex; 
+    align-items: flex-start; 
+    gap: 20px; 
+    margin: 0 auto; 
+}
+
+.about-cfgrounds2 {
+    flex-grow: 1; 
+}
+
+.about-cfgrounds2 p {
+    color: #000;
+    text-align: justify;
+    font-family: Labrada;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 20px;
+    margin-right:100px;
+    margin-left: 100px;
+   
+    width: 940px;
+    
+}
+
+
+.img-cfgrounds2 {
+    margin-top: 22px;
+    width: 200px;
+    height: 200px;
+    flex-shrink: 0; 
+    margin-left:50px;
+
+}
+
+.img-cfgrounds2 a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 15.657px;
+    background: url(cfgrounds2.jpg) lightgray 50% / cover no-repeat;
+    margin-left: 100px;
+    margin-top: 30px;
+   
+}
+
+.cfgrounds-section2 {
+    padding: 20px;
+}
+
+
+/*section 3*/
+.batirol-cfgrounds3 {
+    display: flex; 
+    align-items: flex-start; 
+    gap: 20px; 
+    margin: 0 auto; 
+}
+
+.about-cfgrounds3 {
+    flex-grow: 1; 
+}
+
+.about-cfgrounds3 p {
+    color: #000;
+    text-align: justify;
+    font-family: Labrada;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 20px;
+    margin-left: 150px;
+    margin-right: 150px;
+    width:1200px;
+}
+ /*section 4*/   
+ .cfgrounds-section4 {
+    display: flex; 
+    align-items: flex-start; 
+    gap: 20px; 
+    margin: 0 auto; 
+}
+
+.about-cfgrounds4 {
+    flex-grow: 1; 
+}
+
+.about-cfgrounds4 p {
+    color: #000;
+    text-align: justify;
+    font-family: Labrada;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 20px;
+    margin-left: 125px;
+    
+    width: 940px;
+    
+}
+
+
+.img-cfgrounds4 {
+    margin-top: 22px;
+    width: 200px;
+    height: 200px;
+    flex-shrink: 0; 
+    margin-right: 150px;
+  
+
+}
+
+.img-cfgrounds4 a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 15.657px;
+    background: url(cfgrounds4.jpg) lightgray 50% / cover no-repeat;
+    margin-top: -15px;
+  
+   
+}
+
+.cfgrounds-section4 {
+    padding: 20px;
+}
+
+/*section 5 PHRASE LANG*/
+.batirol-cfgrounds5 {
+    display: flex; 
+    align-items: flex-start; 
+    gap: 20px; 
+    margin: 0 auto; 
+}
+
+.about-cfgrounds5 {
+    flex-grow: 1; 
+}
+
+.about-cfgrounds5 p {
+    color: #000;
+    text-align: justify;
+    font-family: Labrada;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 20px;
+    margin-left: 150px;
+    margin-right: 150px;
+    width:1200px;
+}
+
+/*section 6*/
+.cfgrounds-section6 {
+    display: flex; 
+    align-items: flex-start; 
+    gap: 20px; 
+    margin: 0 auto; 
+}
+
+.about-cfgrounds6 {
+    flex-grow: 1; 
+}
+
+.about-cfgrounds6 p {
+    color: #000;
+    text-align: justify;
+    font-family: Labrada;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 20px;
+    margin-right: 150px;
+    width:940px;
+    
+   
+   
+    
+}
+
+
+.img-cfgrounds6 {
+    margin-top: 22px;
+    width: 200px;
+    height: 200px;
+    flex-shrink: 0; 
+    margin-left:120px;
+    margin-right: 20px;
+
+
+}
+
+.img-cfgrounds6 a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 15.657px;
+    background: url(cfgrounds6.jpg) lightgray 50% / cover no-repeat;
+  
+    margin-top: 15px;
+    
+   
+}
+
+.cfgrounds-section6 {
+    padding: 20px;
+}
+
+/*section 7*/
+/*RIGHTTTTT*/
+.cfgrounds-section7 {
+    display: flex; 
+    gap: 20px;
+}
+
+.about-cfgrounds7 {
+    flex-grow: 1; 
+}
+
+.about-cfgrounds7 p {
+    color: #000;
+    text-align: justify;
+    font-family: Labrada;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 20px;
+    margin-top: 40px;
+    width:940px;
+    margin-left:150px;
+   
+}
+.img-cfrgounds7 {
+    width:500px;
+    height:100px;
+    flex-shrink: 0; 
+  
+
+
+}
+
+.img-cfgrounds7 a {
+    display: block;
+    font-size: 15px;
+    width: 200px;
+    height: 200px;
+    border-radius: 15.657px;
+    background: url(cfgrounds7.jpg) lightgray 50% / cover no-repeat;
+    margin-right: 150px;
+    margin-top: 50px;
+}
+
+.cfgrounds-section7 {
+    padding: 10px;
+}
+
+/*section 8 PHRASE LANG*/
+.cfgrounds-section8 {
+    display: flex; 
+    align-items: flex-start; 
+    gap: 20px; 
+    margin: 0 auto; 
+}
+
+.about-cfgrounds8 {
+    flex-grow: 1; 
+}
+
+.about-cfgrounds8 p {
+    color: #000;
+    text-align: justify;
+    font-family: Labrada;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 20px;
+    margin-left: 150px;
+    margin-right: 150px;
+    width:1200px;
+}
+/*section 9*/
+.cfgrounds-section9 {
+    display: flex; 
+    align-items: flex-start; 
+    gap: 20px; 
+    margin: 0 auto; 
+}
+
+.about-cfgrounds9 {
+    flex-grow: 1; 
+}
+
+.about-cfgrounds9 p {
+    color: #000;
+    text-align: justify;
+    font-family: Labrada;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 20px;
+    margin-right:100px;
+    margin-left: 100px;
+   
+    width: 940px;
+    
+}
+
+
+.img-cfgrounds9 {
+    margin-top: 22px;
+    width: 200px;
+    height: 200px;
+    flex-shrink: 0; 
+    margin-left:50px;
+
+}
+
+.img-cfgrounds9 a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 15.657px;
+    background: url(cfgrounds9.jpg) lightgray 50% / cover no-repeat;
+    margin-left: 100px;
+    
+   
+}
+
+.cfgrounds-section9 {
+    padding: 20px;
+}
+
+/*section 10 PHRASE LANG*/
+.batirol-cfgrounds10 {
+    display: flex; 
+    align-items: flex-start; 
+    gap: 20px; 
+    margin: 0 auto; 
+}
+
+.about-cfgrounds10 {
+    flex-grow: 1; 
+}
+
+.about-cfgrounds10 p {
+    color: #000;
+    text-align: justify;
+    font-family: Labrada;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 20px;
+    margin-left: 150px;
+    margin-right: 150px;
+    width:1200px;
+}
+
+
+/*EDUCATION BLOG*/
+.education-content h1 {
+    color: #000;
+    text-align: center;
+    font-family: Labrada;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 20px;
+    margin-left:  auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.education-section {
+    display: flex; 
+    align-items: flex-start; 
+    gap: 20px; 
+    margin: 0 auto; 
+    width: 1440px;
+    height: 7485px;
+    flex-shrink: 0;
+    
+
+
+}
+
+.about-education {
+    flex-grow: 1; 
+}
+
+.about-education p {
+    color: #000;
+    text-align: justify;
+    font-family: Labrada;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+    width: 1182px;
+    
+}
+
+/* edu section 2*/
+.education-section2 {
+    display: flex;
+    gap: 20px;
+    margin: 50px auto;
+    max-width: 1440px;
+    
+}
+
+.img-education2 {
+    width: 577px;
+    height: 351px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: url(education2.jpg) lightgray 50% / cover no-repeat;
+    margin-top: 150px;
+    margin-left: -1300px;
+}
+
+.about-education2 {
+    width: 594px;
+    height: 330px;
+    flex-shrink: 0;
+    margin-top: 90px;
+}
+
+.about-education2 p {
+    color: #000;
+    text-align: justify;
+    font-family: Labrada;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 70px;
+}
+/* section 3*/
+.education-section3 {
+    display: flex; 
+    align-items: flex-start; 
+    gap: 20px; 
+    margin: 0 auto; 
+    flex-shrink: 0;
+    width: 1440px; 
+    margin-top: 539px;
+    margin-left: -1440px;
+
+
+
+}
+
+.about-education3 {
+    flex-grow: 1; 
+}
+
+.about-education3 p {
+    color: #000;
+    text-align: justify;
+    font-family: Labrada;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    width: 1194px;
+
+}
+
+/* edu section 4*/
+.education-section4 {
+    display: flex;
+    gap: 20px;
+    margin: 50px auto;
+    max-width: 1440px;
+    
+}
+
+.img-education4 {
+    width: 577px;
+    height: 351px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: url(education4.jpg) lightgray 50% / cover no-repeat;
+    margin-top: 100px;
+    margin-left: -1320px;
+}
+
+.about-education4 {
+    width: 594px;
+    height: 330px;
+    flex-shrink: 0;
+    margin-top: 90px;
+}
+
+.about-education4 p {
+    color: #000;
+    text-align: justify;
+    font-family: Labrada;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 35px;
+}
+
+/*section 5*/
+.education-section5 {
+    display: flex; 
+    align-items: flex-start; 
+    gap: 20px; 
+    margin: 0 auto; 
+    flex-shrink: 0;
+    width: 1440px; 
+    margin-top: 500px;
+    margin-left: -1440px;
+
+
+
+}
+
+.about-education5 {
+    flex-grow: 1; 
+}
+
+.about-education5 p {
+    color: #000;
+    text-align: justify;
+    font-family: Labrada;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    width: 1194px;
+
+
+}
+
+/* edu section 6*/
+.education-section6 {
+    display: flex;
+    gap: 20px;
+    margin: 50px auto;
+    max-width: 1440px;
+    
+}
+
+.img-education6 {
+    width: 577px;
+    height: 351px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: url(education6.jpg) lightgray 50% / cover no-repeat;
+    margin-top: 110px;
+    margin-left: -1320px;
+}
+
+.about-education6 {
+    width: 594px;
+    height: 330px;
+    flex-shrink: 0;
+    margin-top: 90px;
+}
+
+.about-education6 p {
+    color: #000;
+    text-align: justify;
+    font-family: Labrada;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 50px;
+}
+
+/*section 7*/
+.education-section7 {
+    display: flex; 
+    align-items: flex-start; 
+    gap: 20px; 
+    margin: 0 auto; 
+    flex-shrink: 0;
+    width: 1440px; 
+    margin-top: 500px;
+    margin-left: -1440px;
+
+
+
+}
+
+.about-education7 {
+    flex-grow: 1; 
+}
+
+.about-education7 p {
+    color: #000;
+    text-align: justify;
+    font-family: Labrada;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    width: 1194px;
+
+
+}
+/*section 8*/
+
+.education-section8 {
+    display: flex;
+    gap: 20px;
+    margin: 50px auto;
+    max-width: 1440px;
+    margin-top: 230px;
+}
+
+.img-education8 {
+    width: 577px;
+    height: 351px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: url(education8.jpg) lightgray 50% / cover no-repeat;
+    margin-top: 110px;
+    margin-left: -1320px;
+}
+
+.about-education8 {
+    width: 594px;
+    height: 330px;
+    flex-shrink: 0;
+    margin-top: 90px;
+}
+
+.about-education8 p {
+    color: #000;
+    text-align: justify;
+    font-family: Labrada;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 50px;
+}
+
+/*section 9*/
+.education-section9 {
+    display: flex; 
+    align-items: flex-start; 
+    gap: 20px; 
+    margin: 0 auto; 
+    flex-shrink: 0;
+    width: 1440px; 
+    margin-top: 700px;
+    margin-left: -1440px;
+
+
+
+}
+
+.about-education9 {
+    flex-grow: 1; 
+}
+
+.about-education9 p {
+    color: #000;
+    text-align: justify;
+    font-family: Labrada;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    width: 1194px;
+
+
+}
+
+/*section 10*/
+
+.education-section10 {
+    display: flex;
+    gap: 20px;
+    margin: 50px auto;
+    max-width: 1440px;
+    margin-top: 430px;
+}
+
+.img-education10 {
+    width: 577px;
+    height: 351px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: url(education10.jpg) lightgray 50% / cover no-repeat;
+    margin-top: 110px;
+    margin-left: -1320px;
+}
+
+.about-education10 {
+    width: 594px;
+    height: 330px;
+    flex-shrink: 0;
+    margin-top: 90px;
+}
+
+.about-education10 p {
+    color: #000;
+    text-align: justify;
+    font-family: Labrada;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 50px;
+}
+
+/*section 11*/
+
+.education-section11{
+    display: flex; 
+    align-items: flex-start; 
+    gap: 20px; 
+    margin: 0 auto; 
+    flex-shrink: 0;
+    width: 1440px; 
+    margin-top: 900px;
+    margin-left: -1440px;
+
+
+
+}
+
+.about-education11 {
+    flex-grow: 1; 
+}
+
+.about-education11 p {
+    color: #000;
+    text-align: justify;
+    font-family: Labrada;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    width: 1194px;
+
+
+}
+
+/*section 12*/
+.education-section12 {
+    display: flex;
+    gap: 20px;
+    margin: 50px auto;
+    max-width: 1440px;
+    margin-top: 20px;
+}
+
+.img-education12 {
+    width: 577px;
+    height: 351px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: url(education12.jpg) lightgray 50% / cover no-repeat;
+    margin-top: 110px;
+    margin-left: -1320px;
+}
+
+.about-education12 {
+    width: 594px;
+    height: 330px;
+    flex-shrink: 0;
+    margin-top: 90px;
+}
+
+.about-education12 p {
+    color: #000;
+    text-align: justify;
+    font-family: Labrada;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 50px;
+}
+
+/*section 13*/
+.education-section13{
+    display: flex; 
+    align-items: flex-start; 
+    gap: 20px; 
+    margin: 0 auto; 
+    flex-shrink: 0;
+    width: 1440px; 
+    margin-top: 480px;
+    margin-left: -1440px;
+
+
+
+}
+
+.about-education13 {
+    flex-grow: 1; 
+}
+
+.about-education13 p {
+    color: #000;
+    text-align: justify;
+    font-family: Labrada;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    width: 1194px;
+
+}
+
+/*section 14*/
+.education-section14 {
+    display: flex;
+    gap: 20px;
+    margin: 50px auto;
+    max-width: 1440px;
+    margin-top: 20px;
+}
+
+.img-education14 {
+    width: 577px;
+    height: 351px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: url(education14.jpg) lightgray 50% / cover no-repeat;
+    margin-top: 530px;
+    margin-left: -1350px;
+}
+
+.about-education14 {
+    width: 594px;
+    height: 330px;
+    flex-shrink: 0;
+    margin-top:500px;
+}
+
+.about-education14 p {
+    color: #000;
+    text-align: justify;
+    font-family: Labrada;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 50px;
+}
+
+/*section 15*/
+.education-section15{
+    display: flex; 
+    align-items: flex-start; 
+    gap: 20px; 
+    margin: 0 auto; 
+    flex-shrink: 0;
+    width: 1440px; 
+    margin-top: 900px;
+    margin-left: -1440px;
+
+
+
+}
+
+.about-education15 {
+    flex-grow: 1; 
+}
+
+.about-education15 p {
+    color: #000;
+    text-align: justify;
+    font-family: Labrada;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    width: 1194px;
+
+}
+/*section 16*/
+.education-section16 {
+    display: flex;
+    gap: 20px;
+    margin: 50px auto;
+    max-width: 1440px;
+    margin-top: 300px;
+}
+
+.img-education16 {
+    width: 577px;
+    height: 351px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: url(education16.jpg) lightgray 50% / cover no-repeat;
+    margin-top: 530px;
+    margin-left: -1350px;
+}
+
+.about-education16 {
+    width: 594px;
+    height: 330px;
+    flex-shrink: 0;
+    margin-top:500px;
+}
+
+.about-education16 p {
+    color: #000;
+    text-align: justify;
+    font-family: Labrada;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 50px;
+}
+
+
+/*--------EXPRESSO BLOG-----------*/
+.xp-content h1 {
+    color: #000;
+    text-align: center;
+    font-family: Labrada;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 20px;
+    margin-left:  auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.xp-section1 {
+    display: flex;
+    gap: 20px;
+    margin: 50px auto;
+    max-width: 1440px;
+    margin-top: 0px;
+    max-width: 100%;
+    flex-wrap: wrap; 
+}
+
+
+.about-xp1 {
+    width: 594px;
+    height: 330px;
+    flex-shrink: 0;
+    margin-top:20px;
+    margin-left: 50px;
+}
+
+.about-xp1 p {
+    color: #000;
+    text-align: justify;
+    font-family: Labrada;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 100px;
+}
+.img-xp1 {
+    width: 507px;
+    height: 482px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: url(xp1.jpg) lightgray 50% / cover no-repeat;
+    margin-top: 20px;
+    margin-left: 120px;
+    border-radius:10px;
+}
+
+/*section 2*/
+.xp-section2 {
+    display: flex;
+    gap: 20px;
+    margin: 50px auto;
+    max-width: 1440px;
+    margin-top: 10px;
+    max-width: 100%;
+    flex-wrap: wrap; 
+}
+
+
+.about-xp2 {
+    width: 594px;
+    height: 330px;
+    flex-shrink: 0;
+    margin-top:5px;
+    margin-left: 130px;
+}
+
+.about-xp2 p {
+    color: #000;
+    text-align: justify;
+    font-family: Labrada;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 5px;
+    margin-bottom: 40px;
+}
+.img-xp2 {
+    width: 584px;
+    height: 358px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: url(xp2.jpg) lightgray 50% / cover no-repeat;
+    margin-top: -30px;
+    margin-left: 10px;
+    border-radius:10px;
+}
+
+/*section 3*/
+
+.xp-section3{
+    display: flex; 
+    align-items: flex-start; 
+    gap: 20px; 
+    margin: 0 auto; 
+    flex-shrink: 0;
+    width: 1440px; 
+    margin-top: 900px;
+    margin-left: -1440px;
+    max-width: 100%;
+    flex-wrap: wrap; 
+
+
+
+}
+
+.about-xp3{
+    flex-grow: 1; 
+}
+
+.about-xp3 p {
+    color: #000;
+    text-align: justify;
+    font-family: Labrada;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 20px;
+    margin-left: 130px;
+    margin-right: 100px;
+    width: 1194px;
+
+}
+
+/*section 4*/
+.xp-section4 {
+    display: flex;
+    gap: 20px;
+    margin: 50px auto;
+    max-width: 1440px;
+    margin-top: 0px;
+    max-width: 100%;
+    flex-wrap: wrap; 
+}
+
+
+.about-xp4 {
+    width: 594px;
+    height: 330px;
+    flex-shrink: 0;
+    margin-top:20px;
+    margin-left: 50px;
+}
+
+.about-xp4 p {
+    color: #000;
+    text-align: justify;
+    font-family: Labrada;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 45px;
+}
+.img-xp4 {
+    width: 559px;
+    height: 337px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: url(xp4.jpg) lightgray 50% / cover no-repeat;
+    margin-top: 20px;
+    margin-left: 100px;
+    border-radius:10px;
+}
+
+/*section 5*/
+.xp-section5{
+    display: flex; 
+    align-items: flex-start; 
+    gap: 20px; 
+    margin: 0 auto; 
+    flex-shrink: 0;
+    width: 1440px; 
+    margin-top: 20px;
+    margin-left: -1440px;
+    max-width: 100%;
+    flex-wrap: wrap; 
+
+
+
+}
+
+.about-xp5{
+    flex-grow: 1; 
+    
+}
+
+.about-xp5 p {
+    color: #000;
+    text-align: justify;
+    font-family: Labrada;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 20px;
+    margin-left: 1550px;
+    margin-right: 100px;
+    width: 1194px;
+
+}
+
+/*section 6*/
+.xp-section6 {
+    display: flex;
+    gap: 20px;
+    margin: 50px auto;
+    max-width: 1440px;
+    margin-top: 10px;
+    max-width: 100%;
+    flex-wrap: wrap; 
+}
+
+
+.about-xp6 {
+    width: 594px;
+    height: 330px;
+    flex-shrink: 0;
+    margin-top:5px;
+    margin-left: 1550px;
+}
+
+.about-xp6 p {
+    color: #000;
+    text-align: justify;
+    font-family: Labrada;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 5px;
+    margin-bottom: 40px;
+}
+.img-xp6 {
+    width: 584px;
+    height: 358px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: url(xp6.jpg) lightgray 50% / cover no-repeat;
+    margin-top: -400px;
+    margin-left: 2200px;
+    border-radius:10px;
+}
+
+/*section 7*/
+.xp-section7 {
+    display: flex; 
+    align-items: flex-start; 
+    gap: 20px; 
+    margin: 0 auto; 
+    flex-shrink: 0;
+    width: 1440px; 
+    margin-top: -140px;
+    margin-left: -1440px;
+    max-width: 100%;
+    flex-wrap: wrap; 
+
+
+
+}
+
+.about-xp7{
+    flex-grow: 1; 
+    
+}
+
+.about-xp7 p {
+    color: #000;
+    text-align: justify;
+    font-family: Labrada;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    width: 1194px;
+
+}
 
 /*Coffee Beans na blog boset*/
 
@@ -1162,41 +2507,17 @@ margin-top: 50px;
 
 /* SPECIAL OFFERS */
 .offer{
-    padding:20px;
+    padding:10px;
 }
-
-.cart h3{
-    font-size: 40px;
-    display: flex;
-    left: 190px;
-    top: 95px;
-    color: #27160f;
-    font-style: normal;
-    font-weight: 300;
+.cart{
+font-size: 100px;
+position: relative;
+left: 100px;
 }
-.cart-img img{
+.cart-img{
     display: block;
-    width: 600px;
-    height: 400px;
-    float: right;
-    margin-top: 20px;
+    width: 200px;
+    height:200px;
+    position: relative;
     margin-right: 50px;
-    border-radius:10px;
-}
-
-.wedding img{
-    width: 1200px;
-    height: 395px;
-    display:block;
-    margin-top: 500px;
-    margin-right: 50px;
-    margin-left: 50px;
-    margin-bottom: 50px;
-}
-
-.special img{
-    width: 1334px;
-    height: 1850px;
-    display:block;
-    margin: 0;
 }
