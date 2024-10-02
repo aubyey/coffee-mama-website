@@ -127,7 +127,7 @@ nav ul li a:hover {
 
 /* TCM Section */
 .TCM {
-    background-image: url(coffeebackground.jpeg); 
+    background-image: url(TCMbackground.jpg); 
     background-size: cover;
     background-position: center;
     height: 85vh;
@@ -135,16 +135,7 @@ nav ul li a:hover {
     position: relative;
 }
 
-.TCM::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5); 
-    z-index: 1;
-}
+
 
 .TCM-content {
     text-align: center;
@@ -152,15 +143,6 @@ nav ul li a:hover {
     color: white;
 }
 
-.TCM-content h1 {
-    font-size: 64px;
-    margin: 0;
-    font-family: 'Kaushan Script';
-}
-
-.TCM-content h1 span {
-    display: block;
-}
 
 /* Sa Menu na Page*/
 Menu::before {
