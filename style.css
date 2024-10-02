@@ -2,7 +2,7 @@ body {
     margin: 0 auto;
     padding: 0;
     font-family: 'Kaushan Script', cursive;
-    background-color:#B99976;
+    background-color: #948375;
 }
 
 
@@ -15,14 +15,37 @@ header {
     position: relative;
     z-index: 10; 
     height: 45px;   
-    width: auto;
+    width: relative;
 }
 
 footer{
     background-color: #CEB8A1;
-    justify-content:flex-start;
-    height: 45px;
-    position: fixed;    
+    justify-content: space-evenly;
+    height: 30px;
+    width: relative; 
+    display: flex;  
+    position: bottom;
+    padding: 10px 20px;
+}
+.icon img{
+ width: 30px;
+ height: 30px;
+ border-radius: 2px;
+ margin-right: 90px;
+ margin-left: 90px;
+ margin-top: auto;
+ margin-bottom: auto;
+}
+.icon {
+position:relative;
+}
+
+.icon-row {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin-bottom: 50px;
+
 }
 
 /*-------HOME--------*/
@@ -334,9 +357,10 @@ Menu::before {
 
 .image-container {
     margin-left: 600px;
-    margin-top: -250px;
+    margin-top: -260px;
+    margin-bottom: 40px;
     width: 600px;
-    height: 500px;
+    height: 450px;
     background-color: #bfa690;
     border-radius: 25px;
     display: flex;
