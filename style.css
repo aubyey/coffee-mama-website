@@ -1124,3 +1124,19 @@ Menu::before {
 
 }
 
+/* SPECIAL OFFERS */
+.offer{
+    padding:10px;
+}
+.cart{
+font-size: 100px;
+position: relative;
+left: 100px;
+}
+.cart-img{
+    display: block;
+    width: 200px;
+    height:200px;
+    position: relative;
+    margin-right: 50px;
+}
