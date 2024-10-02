@@ -21,6 +21,6 @@ function changeImage(drink) {
     } else if (drink === 'milkchoco') {
         image.src = 'menu6MILK&CHOCO.jpg'; 
     } else {
-        image.src = ''; //lagay nalang kayo kung ano image gusto niyo i display//
+        image.src = 'MenuCover.jpg'; //lagay nalang kayo kung ano image gusto niyo i display//
     }
 }

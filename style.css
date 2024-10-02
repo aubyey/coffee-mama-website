@@ -25,7 +25,6 @@ footer{
     height: 30px;
     width: relative; 
     display: flex;  
-    position: bottom;
     padding: 10px 20px;
 }
 .icon img{
@@ -130,7 +129,7 @@ nav ul li a:hover {
     background-image: url(TCMbackground.jpg); 
     background-size: cover;
     background-position: center;
-    height: 85vh;
+    height: 90vh;
     display:block;
     position: relative;
 }
@@ -278,7 +277,7 @@ Menu::before {
     background: #664935;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     margin-left: 150px;
-    margin-top: -224px;
+    margin-top: -225.5px;
     font-family:Georgia, serif, bold;
     color:white;
      }                  
@@ -372,22 +371,24 @@ Menu::before {
     background: #948375;
         }
 
-.image-container {
+.image-container { /* shadow nung menu*/
     margin-left: 600px;
     margin-top: -260px;
     margin-bottom: 40px;
-    width: 600px;
-    height: 450px;
-    background-color: #bfa690;
+    width: 450px;
+    height: 410px;
+    background-color: #887360;
     border-radius: 25px;
     display: flex;
+    visibility: visible;
     justify-content: center;
     align-items: center;
 }
 
-#display-image {
-    max-width: 100%;
-    max-height: 100%;
+#display-image { /*mismong menu */
+    width: 450px;
+    height: 410px;
+    transform: translate(-20px, 20px);
     border-radius: 15px;
 }
 
@@ -412,7 +413,7 @@ Menu::before {
     font-weight: 700;
     line-height: 45px; 
     top: 5px; 
-    margin-left:250px;
+
 }
 
 /* Paragraph Styling */
@@ -2506,18 +2507,63 @@ margin-top: 50px;
 }
 
 /* SPECIAL OFFERS */
-.offer{
-    padding:10px;
-}
-.cart{
-font-size: 100px;
-position: relative;
-left: 100px;
-}
-.cart-img{
+
+.cart-img img{
     display: block;
-    width: 200px;
-    height:200px;
+    width: 550px;
+    height:300px;
+    border-radius: 10px;
     position: relative;
-    margin-right: 50px;
+    margin-left: 600px;
+    margin-top: -300px;
+    margin-bottom: 30px;
+}
+.cart h3{
+    font-size: 30px;
+    position: relative;
+    display: flex;
+    color:#27160f;
+    right: 500px;
+    left: 200px;
+    line-height: normal;  
+    }
+
+.event-img table{
+    max-width: fit-content;
+    max-height: fit-content;
+    display: block;
+    margin-left: 70px;
+}
+
+.about-event{
+    width: 800px;
+    position: relative;
+    display: inline-block;
+    left: 450px;
+    top: -300px;
+}
+.about-event h2{
+    font-size:20px;
+    font-family: 'Labrada';
+    line-height: normal;
+    margin-left: -340px;
+
+}
+
+.about-event p {
+    font-size: 18px;
+    font-family: 'Labrada';
+    margin-top:120px;
+    text-align: justify;
+}
+
+.perks h1{
+    font-size: 30px;
+    color: #27160f;
+    position: relative;
+    margin-top: -180px;
+}
+
+.table-offer {
+    display: block;
 }
