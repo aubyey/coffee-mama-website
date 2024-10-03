@@ -2575,15 +2575,16 @@ margin-top: 50px;
 }
 .offers-item{
     border-radius: 10px;
-    width:350px;
-}
-
-.offers-item h2{
-    font-size:15px;
-    color: #27160f;
+    width:300px;
+    padding: 30px;
 }
 
 .offers-item p{
-    font-size: 13px;
-    color: #5f3e24;
+    font-size: 15px;
+    color: #2c1402;
+    font-family: 'Labrada';
+}
+
+.offers-item:hover{
+ transform: scale(1.1);
 }
