@@ -2564,6 +2564,26 @@ margin-top: 50px;
     margin-top: -180px;
 }
 
-.table-offer {
-    display: block;
+.offers-row{
+    display: flex;
+    justify-content: center;
+    gap:20px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    
+}
+.offers-item{
+    border-radius: 10px;
+    width:350px;
+}
+
+.offers-item h2{
+    font-size:15px;
+    color: #27160f;
+}
+
+.offers-item p{
+    font-size: 13px;
+    color: #5f3e24;
 }
