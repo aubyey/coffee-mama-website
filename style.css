@@ -4,6 +4,7 @@ body {
     font-family: 'Kaushan Script', cursive;
     background-color: #B99976;
     height: auto;
+    align-content: center;
 }
 
 
@@ -886,7 +887,7 @@ Menu::before {
 
 .img-batirol7 {
     margin-top: 100px;
-    width: 200px;
+    width: 300px;
     height: 200px;
     flex-shrink: 0; 
     margin-right:300px;
@@ -2576,6 +2577,7 @@ margin-top: 50px;
 .offers-item{
     border-radius: 10px;
     width:300px;
+    height: 300px;
     padding: 30px;
 }
 
