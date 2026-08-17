@@ -1,0 +1,147 @@
+.job-offer-section{
+    padding: 50px 20px;
+}
+.title{
+    margin-bottom: 30px;
+}
+.title h1{
+    font-family: 'Kaushan Script';
+    font-weight: 500;
+    text-align: center;
+}
+
+.content{
+    display: flex;
+    gap:40px;
+    justify-content: center;
+    align-items: center;
+}
+.position{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+
+.position-item.attendant{
+    background: #948375;
+}
+.position-item{
+    background: #664935;
+    padding: 10px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.position-item:hover{
+    transform: scale(1.05);
+}
+.position-item img{
+    height: 150px;
+    width: 150px;
+    border-radius: 5px;
+}
+.position-item h3{
+    font-family: 'Kaushan Script';
+    color: #fff;
+    text-align: center;
+}
+.position-details{
+    display: flex;
+    flex-direction: column;
+    gap:35px;
+    width: 50%;
+    background: #948375;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.position-details-item h4{
+    font-weight: bold;
+    font-size: 20px;
+}
+.position-details-item ul li{
+    list-style: none;
+}
+
+button{
+    cursor: pointer;
+}
+
+.how-to-apply-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap:15px;
+    padding: 40px 20px;
+}
+
+.how-details{
+    width: 60%;
+}
+
+.how-main{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+
+.how-details-item{
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+}
+
+.how-details-item h6{
+    font-size:17px;
+    font-weight: bold;
+}
+.how-details-item p{
+    font-weight: bold;
+}
+.how-to-apply-container h2{
+    text-align: center;
+}
+
+@media(max-width:991px){
+    .how-details{
+        width: 80%;
+    }
+}
+
+@media(max-width:767px){
+    .content{
+        flex-direction: column;
+    }
+    .position{
+        flex-direction: row;
+    }
+    .position-details{
+        width: 100%;
+    }
+    .how-details{
+        width: 100%;
+    }
+    .how-details-item h6{
+        font-size:15px;
+    }
+    .how-to-apply-container{
+        padding: 40px 10px;
+    }
+    .how-to-apply-container h2{
+        font-size: 19px;
+    }
+}
+
+@media(max-width:650px){
+    .position-item{
+        text-align: center;
+    }
+    .position-item img{
+        height: 90px;
+        width: 90px;
+    }
+    .position-item h3{
+        font-size: 17px;
+    }
+}

@@ -1,60 +1,249 @@
 <!DOCTYPE html>
-<html lang="en"></html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Coffee Mom</title>
 
-   
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/career.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+    
      <!-- DITO MGA FONTS-->
     <link href="https://fonts.googleapis.com/css2?family=Italianno&family=Kaushan+Script&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
-<style>
-
-   /*DITO YUNG MAAYOS NA WALANG LABIS WALANG KULANG*/
-  body {
-    body {
-            width: 100%;
-            height: 100%;
-            font-family: 'Kaushan Script', cursive;
-        }
-
-        }
-
-</style>
-    
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">    
 </head>
 <body>
+<!-- Header Section -->
+<header>
+    <div class="logo">
+        <img src="TCM(logo).png" alt="The Coffee Mom"> 
+        <h1>The&nbsp;Coffee&nbsp;Mom</h1>
+    </div>
+    <nav>
+        <ul id="nav-menu" class="nav-menu">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="about-us.html">About Us</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="special-offer.html">Special Offers</a></li>
+            <li><a href="career.html" class="active">Career</a></li>
+        </ul>
+        <button type = "button" class="toggle"><i class="fa-solid fa-bars"></i></button>
+    </nav>
+</header>
 
-    <!-- Header Section -->
-    <header>
-        <div class="logo">
-            <img src="TCM(logo).png" alt="The Coffee Mom"> 
-            <h1>The&nbsp;Coffee&nbsp;Mom</h1>
+<section class="job-offer-section">
+    <div class="title">
+        <h1>The Coffee Mom's Job Offer</h1>
+    </div>
+    <div class="content">
+        <div class="position">
+            <div class="position-item attendant">
+                <button type="button" id = "btn_attendant" >
+                    <img src="attendant.jpg" class="job-image"/>
+                    <h3>Male attendant</h3>
+                </button>
+            </div>
+            <div class="position-item">
+                <button type="button" id = "btn_barista" >
+                    <img src="barista.jpg" class="job-image"/>
+                    <h3>Male Barista</h3>
+                </button>
+            </div>
+            <div class="position-item">
+                <button type="button" id = "btn_cook" >
+                    <img src="cook.jpg" class="job-image"/>
+                    <h3>Male Cook</h3>
+                </button>
+            </div>
         </div>
-        <nav>
-            <ul>
-                <li><a href="home.html">Home</a></li>
-                <li><a href="menu.html">Menu</a></li>
-                <li><a href="aboutUs.html">About Us</a></li>
-                <li><a href="blog.html">Blog</a></li>
-                <li><a href="specialOffer.html">Special Offers</a></li>
-                <li><a href="career.html">Career</a></li>
-            </ul>
-        </nav>
-    </header>
+        <div id = "attendant" class="position-details">
+            <div class="position-details-item">
+                <h4>Position Overview</h4>
+                <p>
+                    The Coffee Mom continuously seeks a friendly and energetic Coffee Shop Attendant to join #TeamCoffeeMom.
+                     As a #TeamCoffeeMom Coffee Shop Attendant, you will ensure exceptional customer service, maintain cleanliness, 
+                     and support daily operations in our bustling coffee shop. Your role will involve taking customer orders, 
+                    preparing beverages, handling transactions, and creating a welcoming atmosphere for our patrons.
+                </p>
+            </div>
+            <div class="position-details-item">
+                <h4>Responsibilities</h4>
+                <ul>
+                    <li>1. Greet and assist customers in a friendly and professional manner, taking their orders accurately and efficiently.</li>
+                    <li>2. Operate coffee-making equipment, such as espresso machines, grinders, and blenders, ensuring proper functioning and cleanliness.</li>
+                    <li>3. Handle cash and electronic transactions, maintaining accurate records and balancing cash registers at the end of each shift.</li>
+                    <li>4. Maintain cleanliness and organization of the coffee shop, including the seating area, counter, and restroom facilities.</li>
+                    <li>5. Ensure sufficient stock of supplies, including coffee beans, milk, syrups, and other ingredients, and notify management when reordering is needed.</li>
+                    <li>6. Monitor and manage food items, pastries, and other merchandise inventory levels, ensuring freshness and proper storage.</li>
+                    <li>7. Provide excellent customer service, addressing customer inquiries, resolving complaints, and making preference recommendations.</li>
+                    <li>8. Collaborate with team members to maintain a smooth flow of operations, including assisting with food preparation, cleaning tasks, and restocking.</li>
+                    <li>9. Adhere to health and safety regulations, following proper food handling, sanitation, and hygiene practices.</li>
+                </ul>
+            </div>
+            <div class="position-details-item">
+                <h4>Qualifications</h4>
+                <ul>
+                    <li>1. Previous experience in a customer service role, preferably in a coffee shop, café, or restaurant setting.</li>
+                    <li>2. Knowledge of various coffee and tea beverages, brewing methods, and specialty drink recipes.</li>
+                    <li>3. Outstanding interpersonal and communication skills. Can engage with customers and work effectively in a team environment.</li>
+                    <li>4. Excellent multitasking abilities and the capacity to work in a fast-paced environment.</li>
+                    <li>5. Attention to detail and a commitment to maintaining cleanliness and hygiene standards.</li>
+                    <li>6. Positive attitude, enthusiasm, and passion for delivering exceptional customer experiences.</li>
+                    <li>7. Flexibility to work varied shifts, including mornings, evenings, weekends, and holidays, in addition to the coffee shop's operating hours.</li>
+                </ul>
+            </div>
+        </div>
 
-    <footer>
-        <div class="icon-row">
+        <div id = "barista" class="position-details" style="display:none;">
+            <div class="position-details-item">
+                <h4>Position Overview</h4>
+                <p>
+                    We are continuously looking for a skilled and passionate Barista to join #TeamCoffeeMom. 
+                    As a #TeamCoffeeMom Barista, you will be responsible for crafting and serving high-quality coffee beverages to 
+                    our customers. Your role will involve operating coffee-making equipment, providing outstanding customer service, 
+                    and maintaining a clean and organized workspace. This is the perfect opportunity if you love coffee and enjoy creating delightful experiences for coffee enthusiasts.
+                </p>
+            </div>
+            <div class="position-details-item">
+                <h4>Responsibilities</h4>
+                <ul>
+                    <li>1. Prepare and serve various coffee beverages, including espresso, cappuccinos, lattes, and specialty drinks, following established recipes and quality standards.</li>
+                    <li>2. Operate coffee-making equipment, such as espresso machines, grinders, and brewers, ensuring proper settings, calibration, and maintenance.</li>
+                    <li>3. Consistently produce high-quality coffee with attention to brewing techniques, extraction times, and milk frothing.</li>
+                    <li>4. Take customer orders, provide recommendations, and offer exceptional customer service, ensuring a positive and personalized experience.</li>
+                    <li>5. Handle cash and electronic transactions accurately, including operating a cash register and processing payments.</li>
+                    <li>6. Maintain cleanliness and organization of the coffee bar, equipment, and seating area, following health and safety guidelines.</li>
+                    <li>7. Monitor and replenish coffee beans, milk, syrups, and other supplies, ensuring optimal stock levels for uninterrupted operations.</li>
+                    <li>8. Stay updated on coffee trends, new brewing methods, and specialty beverages, continuously expanding your knowledge and skills.</li>
+                    <li>9. Assist with food preparation, including pastries and light snacks, and maintain their freshness and presentation.</li>
+                    <li>10. Collaborate with team members to ensure smooth workflow, assist during busy periods, and contribute to a positive work environment.</li>
+                </ul>
+            </div>
+            <div class="position-details-item">
+                <h4>Qualifications</h4>
+                <ul>
+                    <li>1. Extensive experience as a barista or in a similar role, preferably in a specialty coffee shop or café setting.</li>
+                    <li>2. Strong knowledge of coffee beans, blends, and brewing methods, with expertise in espresso-based beverages.</li>
+                    <li>3. Proficient in operating coffee-making equipment, such as espresso machines, grinders, and milk frothers.</li>
+                    <li>4. Outstanding communication/customer service skills, with the talent to engage with customers, take orders, and provide recommendations.</li>
+                    <li>5. Attention to detail and a commitment to maintaining cleanliness and hygiene standards.</li>
+                    <li>6. Can work well in a fast-paced environment and handle multiple tasks efficiently and accurately.</li>
+                    <li>7. Positive attitude, enthusiasm, and a genuine passion for coffee and creating memorable customer experiences.</li>
+                    <li>8. Flexibility to work varied shifts, including early mornings, evenings, weekends, and holidays, as per the coffee shop's operating hours.</li>                
+                </ul>
+            </div>
+        </div>
+
+        <div id = "cook" class="position-details" style="display:none;">
+            <div class="position-details-item">
+                <h4>Position Overview</h4>
+                <p>
+                    We are seeking an experienced and skilled Cook to join #TeamCoffeeMom. As a #TeamCoffeeMom Cook, you will prepare 
+                    delicious, high-quality food according to our recipes and standards. Your role will involve executing cooking 
+                    techniques, coordinating kitchen operations, and ensuring food safety and hygiene. If you are passionate about 
+                    culinary arts and thrive in a fast-paced kitchen environment, we invite you to apply for this exciting opportunity.
+                </p>
+            </div>
+            <div class="position-details-item">
+                <h4>Responsibilities</h4>
+                <ul>
+                    <li>1. Prepare and cook a wide range of menu items, including appetizers, entrees, and desserts, following established recipes and portion sizes.</li>
+                    <li>2. Execute cooking techniques and methods precisely, ensuring consistent quality and presentation of all dishes.</li>
+                    <li>3. Coordinate kitchen operations, including organizing food preparation, prioritizing tasks, and managing cooking times to meet service requirements.</li>
+                    <li>4. Maintain a clean and organized kitchen workspace, following sanitation and food safety guidelines.</li>
+                    <li>5. Monitor and maintain inventory levels of food supplies, ingredients, and kitchen equipment, ensuring proper storage and minimizing waste.</li>
+                    <li>6. Collaborate with kitchen staff to ensure efficient workflow, effective communication, and teamwork.</li>
+                    <li>7. Assist in developing new menu items, recipe testing, and menu planning as directed by the Operations/Branch Manager or management.</li>
+                    <li>8. Strict with health and safety regulations, including proper food handling, storage, and cleanliness.</li>
+                    <li>9. Adapt and respond to special dietary needs or customer requests, accommodating allergies, preferences, and specific instructions.</li>
+                    <li>10. Uphold high food quality standards, taste, and presentation, consistently striving to exceed customer expectations.</li>                
+                </ul>
+            </div>
+            <div class="position-details-item">
+                <h4>Qualifications</h4>
+                <ul>
+                    <li>1. Proven experience as a Cook or in a similar culinary role, preferably in a restaurant or hospitality setting.</li>
+                    <li>2. Strong knowledge of culinary techniques, cooking methods, and food preparation principles.</li>
+                    <li>3. Proficiency in preparing a variety of cuisines and menu items, with the ability to follow recipes accurately.</li>
+                    <li>4. Ability to operate and maintain kitchen equipment, including stoves, ovens, grills, and fryers.</li>
+                    <li>5. Knowledge of food safety and sanitation practices, with food handling and safety certification preferred.</li>
+                    <li>6. Excellent time management/organizational skills, with a muscle memory of working efficiently in a fast-paced environment.</li>
+                    <li>7. Attention to detail and a commitment to maintaining cleanliness and hygiene standards.</li>
+                    <li>8. Strong communication and teamwork abilities, with the capacity to collaborate effectively with kitchen staff and other team members.</li>
+                    <li>9. Flexibility to work in different shifts, including evenings, weekends, and holidays, based on the demands of the business.</li>
+                    <li>10. A passion for culinary arts, creativity in the kitchen, and a dedication to delivering exceptional food experiences.</li>                
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="how-to-apply-container">
+        <h2>HOW TO APPLY?</h2>
+        <div class="how-details">
+            <div class="how-main">
+                <div class="how-details-item">
+                    <h6>1. FOR APPLICANTS STAYING IN TARLAC CITY </h6>
+                    <p>‣ Obtain a printed resume with a photo attached and a barangay clearance.</p>
+                    <p>‣ Visit The Coffee Mom from Mondays to Sundays, 8 am to 5 pm, and look for Miss Anj or Sir JN for an initial assessment/interview.</p>
+                </div>
+                <div class="how-details-item">
+                    <h6>2. FOR APPLICANTS STAYING OUTSIDE TARLAC CITY  </h6>
+                    <p>(we offer free lodging)</p>
+                    <p>‣Email your resume with a photo attached to thecoffeemomph[at]gmail[dot]com. Indicate the position you're applying for in the subject line.</p>
+                    <p>‣Kindly wait for our call.</p>
+                </div>
+                <div class="how-details-item">
+                    <p>To avail our free lodging, securing a barangay and a police clearance is a top priority.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<footer>
+    <div class="icon-row">
         <div class="icon">
-            
-             <a href="https://www.facebook.com/thecoffeemomph/" target="_blank"><img src="Aafb.jpg" ></a> 
-             <a href="https://www.instagram.com/thecoffeemomph/" target="_blank"><img src="Aaig.jpg"></a>
-             <a href="https://www.tiktok.com/@thecoffeemomph" target="_blank"><img src="Aatt.jpg"></a>
-             <a href="https://www.youtube.com/@thecoffeemomph" target="_blank"><img src="Aayt.jpg"></a>
-       
+            <a href="https://www.facebook.com/thecoffeemomph/" target="_blank"><img src="Aafb.jpg" ></a> 
+            <a href="https://www.instagram.com/thecoffeemomph/" target="_blank"><img src="Aaig.jpg"></a>
+            <a href="https://www.tiktok.com/@thecoffeemomph" target="_blank"><img src="Aatt.jpg"></a>
+            <a href="https://www.youtube.com/@thecoffeemomph" target="_blank"><img src="Aayt.jpg"></a>
         </div>    
-        </div>
-    </footer>
-    </body>
+    </div>
+</footer>
+<script src="script.js"></script>
+<script src="js/navbar.js"></script>
+<script>
+    // Function to show a specific div and hide others
+function showDiv(selectedDiv) {
+    const divs = ['attendant', 'barista', 'cook'];
+    divs.forEach(div => {
+        document.getElementById(div).style.display = (div === selectedDiv) ? 'block' : 'none';
+    });
+    // Save the selected div to localStorage
+    localStorage.setItem('selectedDiv', selectedDiv);
+}
+
+// Event listeners for each button
+document.getElementById('btn_attendant').addEventListener('click', function() {
+    showDiv('attendant');
+});
+
+document.getElementById('btn_barista').addEventListener('click', function() {
+    showDiv('barista');
+});
+
+document.getElementById('btn_cook').addEventListener('click', function() {
+    showDiv('cook');
+});
+
+// On page load, show the div from localStorage or default to 'attendant'
+window.onload = function() {
+    const selectedDiv = localStorage.getItem('selectedDiv') || 'attendant';
+    showDiv(selectedDiv);
+};
+
+</script>
+</body>
+</html>

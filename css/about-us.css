@@ -1,0 +1,86 @@
+.about-tcm{
+    padding: 100px 150px;
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+}
+.about-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:50px;
+    color: #fff;
+}
+.about-section .person-images{
+    border-radius: 10px;
+    width: 600px;
+}
+
+.about-section2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:50px;
+    color: #fff;
+}
+.about-section{
+    color: #fff;
+}
+
+h1{
+    font-family: 'Kaushan Script';
+}
+
+
+.about-section2 .person-images{
+    width: 270px;
+    height: 250px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.about-text3{
+    color: #fff;
+}
+
+@media(max-width:1400px){
+    .about-tcm{
+        padding: 60px 50px;
+    }
+    .about-section{
+        flex-direction:column-reverse;
+        gap:30px;
+    }
+}
+
+@media(max-width:800px){
+
+    .about-section .person-images{
+        width: 300px;
+    }
+    .about-section2{
+        flex-direction: column;
+        gap:10px;
+    }
+    .about-text,
+    .about-text2,
+    .about-text3{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .about-text h1,
+    .about-text p,
+    .about-text2 h1,
+    .about-text2 p,
+    .about-text3 h1,
+    .about-text3 p{
+        text-align: justify;
+    }
+}
+@media(max-width:600px){
+    .about-tcm{
+        padding: 40px 20px;
+    }
+}

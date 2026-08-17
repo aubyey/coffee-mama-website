@@ -5,46 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Coffee Mom</title>
 
-   
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/blog.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+
      <!-- DITO MGA FONTS-->
     <link href="https://fonts.googleapis.com/css2?family=Italianno&family=Kaushan+Script&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
-<style>
-
-   /*DITO YUNG MAAYOS NA WALANG LABIS WALANG KULANG*/
-  body {
-    body {
-            width: 100%;
-            height: 100%;
-            font-family: 'Kaushan Script', cursive;
-        }
-
-        }
-
-</style>
-    
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">    
 </head>
 <body>
-
-    <!-- Header Section -->
-    <header>
-        <div class="logo">
-            <img src="TCM(logo).png" alt="The Coffee Mom"> 
-            <h1>The&nbsp;Coffee&nbsp;Mom</h1>
-        </div>
-        <nav>
-            <ul>
-                <li><a href="home.html">Home</a></li>
-                <li><a href="menu.html">Menu</a></li>
-                <li><a href="aboutUs.html">About Us</a></li>
-                <li><a href="blog.html">Blog</a></li>
-                <li><a href="specialOffer.html">Special Offers</a></li>
-                <li><a href="career.html">Career</a></li>
-            </ul>
-        </nav>
-    </header>
-
+<!-- Header Section -->
+<header>
+    <div class="logo">
+        <img src="TCM(logo).png" alt="The Coffee Mom"> 
+        <h1>The&nbsp;Coffee&nbsp;Mom</h1>
+    </div>
+    <nav>
+        <ul id="nav-menu" class="nav-menu">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="about-us.html">About Us</a></li>
+            <li><a href="blog.html" class="active">Blog</a></li>
+            <li><a href="special-offer.html">Special Offers</a></li>
+            <li><a href="career.html">Career</a></li>
+        </ul>
+        <button type = "button" class="toggle"><i class="fa-solid fa-bars"></i></button>
+    </nav>
+</header>
+<section class="blog-section">
     <div class="blog-categories">
         <h1>Blog Categories</h1>
         <div class="category-row">
@@ -66,7 +54,6 @@
                 <span class="badge">Coffee&nbsp;Consumption</span>
                 <a href="coffeeconsumption.html">
                     <img src="coffeeconsumption.jpg" alt="Coffee Consumption">
-                    
                 </a>
             </div>
         </div>
@@ -87,26 +74,24 @@
             </div>
             <div class="category">
                 <span class="badge">Kapeng&nbsp;Barako</span>
-                <a href="https://example.com/kapeng-barako">
+                <a href="kp.html">
                     <img src="kapengbarako.jpg" alt="Kapeng Barako">
                     
                 </a>
             </div>
         </div>
     </div>
-  
-    <footer>
-        <div class="icon-row">
+</section>
+<footer>
+    <div class="icon-row">
         <div class="icon">
-            
-             <a href="https://www.facebook.com/thecoffeemomph/" target="_blank"><img src="Aafb.jpg" ></a> 
-             <a href="https://www.instagram.com/thecoffeemomph/" target="_blank"><img src="Aaig.jpg"></a>
-             <a href="https://www.tiktok.com/@thecoffeemomph" target="_blank"><img src="Aatt.jpg"></a>
-             <a href="https://www.youtube.com/@thecoffeemomph" target="_blank"><img src="Aayt.jpg"></a>
-       
+            <a href="https://www.facebook.com/thecoffeemomph/" target="_blank"><img src="Aafb.jpg" ></a> 
+            <a href="https://www.instagram.com/thecoffeemomph/" target="_blank"><img src="Aaig.jpg"></a>
+            <a href="https://www.tiktok.com/@thecoffeemomph" target="_blank"><img src="Aatt.jpg"></a>
+            <a href="https://www.youtube.com/@thecoffeemomph" target="_blank"><img src="Aayt.jpg"></a>
         </div>    
-        </div>
-    </footer>
-
+    </div>
+</footer>
+<script src="js/navbar.js"></script>
 </body>
 </html>

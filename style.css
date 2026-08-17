@@ -394,158 +394,6 @@ Menu::before {
 }
 
 
-/* ABOUT US(ABOUT TCM) */
-
-.about-tcm {
-    width: auto;
-    height: auto;
-    flex-shrink: 0; 
-    position: relative; 
-}
-
-/* ABOUT TCM H2 Styling */
-.about-tcm h2 {
-    width: 309px;
-    height: 45px;
-    flex-shrink: 0;
-    color:#27160f;
-    font-family: 'Labrada';
-    font-size: 30px;
-    font-weight: 700;
-    line-height: 45px; 
-    top: 5px; 
-
-}
-
-/* Paragraph Styling */
-.about-text {
-    font-family: 'Labrada', serif;
-    font-size: 18px;
-    width: 650px;
-    height: auto; 
-    position: absolute;
-    margin-left: 50px;
-    margin-top: 83px;   
-     line-height: 1.6;
-    color: white;
-    overflow: hidden;
-}
-
-/* Image Styling */
-.about-tcmImg {
-    position: absolute;
-    left: 750px;
-    top: 140px;
-    width: 540px;
-    height: 374px;
-}
-
-.about-tcmImg img {
-    width: 100%;
-    height: 100%;
-    border-radius: 30px;
-    object-fit: cover;
-}
-
-/* About TCM Bio Section */
-.tcm-bio1 {
-    position: relative;
-    
-}
-
-.tcm-bio1 img {
-    position: absolute;
-    left: 120px;
-    top: 615px;
-    width: 271px;
-    height: 268px;
-    border-radius: 30px;
-    object-fit: cover;
-}
-
-.tcm-bio1 h3 {
-    position: absolute;
-    left: 508px;
-    top: 714px;
-    width: 309px;
-    height: 45px;
-    font-family: 'Labrada', serif;
-    font-size: 30px;
-    line-height: 45px;
-    margin: 0;
-}
-
-.tcmbio-text1 {
-    position: absolute;
-    left: 460px;
-    top: 580px;
-    margin-right: 50px;
-    width: 830px;
-    height: auto; 
-    font-family: 'Labrada', serif;
-    font-size: 18px;
-    line-height: 1.6; 
-    color: white;
-    overflow: hidden;
-}
-
-/* Bio Section 2 */
-.tcmbio-text2 {
-    position: absolute;
-    left: 50px;
-    top: 910px;
-    margin-right: 50px;
-    width: 1230px;
-    font-family: 'Labrada', serif;
-    font-size: 18px;
-    line-height: 1.6;
-    color: white;
-    overflow: hidden;
-}
-
-.tcmbio-text2 h3 {
-    position: absolute;
-    left: 508px;
-    top: 744px;
-    width: 309px;
-    height: 45px;
-    font-family: 'Labrada';
-    font-size: 24px;
-    line-height: 45px;
-    margin: 0;
-}
-
-
-/*----TCD*-----*/
-.tcd-bio1 {
-    position: relative;
-    
-}
-
-.tcdbio-text1 {
-    position: absolute;
-    left: 460px;
-    top: 1150px;
-    margin-right: 50px;
-    width: 830px;
-    height: auto; 
-    font-family: 'Labrada', serif;
-    font-size: 18px;
-    line-height: 1.6; 
-    color: white;
-    overflow: hidden;
-}
-
-.tcd-bio1 img {
-    position: absolute;
-    left: 120px;
-    top: 615px;
-    width: 271px;
-    height: 1100px;
-    border-radius: 30px;
-    object-fit: cover;
-}
-
 
 /*--------------BLOG---------------*/
 .blog-categories {
@@ -659,7 +507,7 @@ Menu::before {
     width: 200px;
     height: 200px;
     border-radius: 15.657px;
-    background: url('batirol1.jpg') lightgray 50% / cover no-repeat;
+    background: url(batirol1.jpg) lightgray 50% / cover no-repeat;
 }
 
 .batirol-section {
@@ -2590,3 +2438,839 @@ margin-top: 50px;
 .offers-item:hover{
  transform: scale(1.1);
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*JOB OFFER*/
+.JO-content h1 {
+    color:#27160F;;
+    text-align: center;
+    font-family: Kaushan Script;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.rectangle {
+    width: 296px;
+    height: 388px;
+    border-radius: 10px;
+    background-color: #664935; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    transition: background-color 0.3s ease; 
+    margin-left: 120px;
+    margin-top: 40px;
+}
+
+.rectangle:hover {
+    background-color: #948375; 
+}
+
+.image-background {
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#attendant-btn {
+    background-image: url(attendant.jpg); 
+}
+
+#barista-btn {
+    background-image: url(barista.jpg); 
+}
+
+#cook-btn {
+    background-image: url(cook.jpg); 
+}
+
+.rectangle-text {
+    width: 236px;
+    color: #FFF;
+    text-align: center;
+    font-family: "Irish Grover";
+    font-size: 24px; 
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 15px;
+}
+
+
+/*content box for attendant*/
+.content-box {
+    width: 927px;
+    height: 1367px;
+    flex-shrink: 0;
+    background-color: #948375; 
+    margin-left: 500px;
+    margin-top:-1260px;
+    border-radius: 20px;
+}
+
+.content-box p{
+width: 857px;
+flex-shrink: 0;
+color: #000;
+font-family: Labrada;
+font-size: 22px;
+font-style: normal;
+font-weight: 400;
+line-height: 1.6;
+margin-left: auto;
+margin-right: auto;
+margin-top: auto;
+}
+
+
+
+
+
+/*content boc for barista*/
+.content-box1 {
+    width: 927px;
+    height: 1367px;
+    flex-shrink: 0;
+    background-color: #948375; 
+    margin-left: 500px;
+    margin-top:-1260px;
+    border-radius: 20px;
+}
+
+.content-box1 p{
+    width: 857px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Labrada;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.3;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    }
+
+
+
+
+
+
+/*content box for cook*/
+.content-box2 {
+    width: 927px;
+    height: 1367px;
+    flex-shrink: 0;
+    background-color: #948375; 
+    margin-left: 500px;
+    margin-top:-1260px;
+    border-radius: 20px;
+}
+
+.content-box2 p{
+    width: 857px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Labrada;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.3;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    }
+    
+
+.how{
+flex-shrink: 0;
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+}
+
+.how p{
+color: #000;
+font-family: Labrada;
+font-size: 30px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+
+
+}
+
+.how2{
+flex-shrink: 0;
+text-align: justify;
+margin-left: auto;
+margin-right: auto;
+width: 811px;
+height: 508px;
+
+}
+.how2 p{
+    color: #000;
+    font-family: Labrada;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    flex-shrink: 0; 
+}
+
+
+
+/********KAPENG BARAKO****************/
+.kp-content h1 {
+    color: #000;
+    text-align: center;
+    font-family: Labrada;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 20px;
+    margin-left:  auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+/*KP SECTION 1 LEFT*/
+.kp-section1 {
+    display: flex;
+    justify-content: flex-start; 
+    align-items: flex-start; 
+    margin-top: 20px;
+    
+}
+
+.about-kp1 {
+    width: 836px;
+    height: 310px;
+    flex-shrink: 0;
+    color: #000;
+    text-align: justify;
+    font-family: Labrada, serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.6; 
+    margin-left:20px;
+    margin-right: 120px;
+    margin-top: 20px; /****/
+}
+
+.img-kp1 {
+    width: 336px;
+    height: 327px;
+    flex-shrink: 0;
+    margin-left: 120px;
+
+}
+
+.kp-img1 {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    background: url(kp1.jpg) lightgray 50% / cover no-repeat; 
+   
+}
+
+/*KP SECTION2 RIGHT */
+.kp-section2 {
+    display: flex;
+    justify-content: flex-start; 
+    align-items: flex-start; 
+    margin-top: 20px;
+    
+}
+
+.about-kp2 {
+    width: 590px;
+    height: 347px;
+    flex-shrink: 0;
+    color: #000;
+    text-align: justify;
+    font-family: Labrada, serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.6; 
+    margin-top: -20px; /****/
+    margin-left: 120px;
+}
+
+.img-kp2 {
+    width: 589px;
+    height: 368px;
+    flex-shrink: 0;
+    margin-right: 120px;
+    margin-left:20px;
+  
+
+}
+
+.kp-img2 {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    background: url(kp2.jpg) lightgray 50% / cover no-repeat; 
+   
+}
+
+/*KP SECTION 3 PHRASE*/
+.kp-section3 {
+    display: flex;
+    justify-content: flex-start; 
+    align-items: flex-start; 
+    margin-top: 20px;
+    
+}
+
+.about-kp3 {
+    width: 1220px;
+    height: 173px;
+    flex-shrink: 0;
+    color: #000;
+    text-align: justify;
+    font-family: Labrada, serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.6; 
+    margin-top: 20px; /****/
+    margin-left: 120px;
+}
+
+/*KP SECTION4 RIGHT */
+.kp-section4 {
+    display: flex;
+    justify-content: flex-start; 
+    align-items: flex-start; 
+    margin-top: 20px;
+    
+}
+
+.about-kp4 {
+    width: 590px;
+    height: 347px;
+    flex-shrink: 0;
+    color: #000;
+    text-align: justify;
+    font-family: Labrada, serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.6; 
+    margin-top: -20px; /****/
+    margin-left: 120px;
+}
+
+.img-kp4 {
+    width: 589px;
+    height: 368px;
+    flex-shrink: 0;
+    margin-right: 120px;
+    margin-left:20px;
+    margin-top: 25px; /**PAMPABABA BG IMAGE*/
+  
+
+}
+
+.kp-img4 {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    background: url(kp4.jpg) lightgray 50% / cover no-repeat; 
+   
+}
+
+/*KP SECTION 5 PHRASE*/
+.kp-section5 {
+    display: flex;
+    justify-content: flex-start; 
+    align-items: flex-start; 
+    margin-top: 20px;
+    
+}
+
+.about-kp5 {
+    width: 1220px;
+    height: 173px;
+    flex-shrink: 0;
+    color: #000;
+    text-align: justify;
+    font-family: Labrada, serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.6; 
+    margin-top: 20px; /****/
+    margin-left: 120px;
+}
+
+
+/*KP SECTION 6 RIGHT */
+.kp-section6 {
+    display: flex;
+    justify-content: flex-start; 
+    align-items: flex-start; 
+    margin-top: 190px;
+    margin-left: -1330px;
+    
+    
+}
+
+.about-kp6 {
+    width: 590px;
+    height: 347px;
+    flex-shrink: 0;
+    color: #000;
+    text-align: justify;
+    font-family: Labrada, serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.6; 
+    margin-top: -20px; /****/
+    margin-left: 120px;
+}
+
+.img-kp6 {
+    width: 589px;
+    height: 368px;
+    flex-shrink: 0;
+    margin-right: 120px;
+    margin-left:20px;
+    margin-top: 50px;
+  
+
+}
+
+.kp-img6 {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    background: url(kp6.jpg) lightgray 50% / cover no-repeat; 
+   
+}
+
+/*KP SECTION 7 RIGHT */
+.kp-section7 {
+    display: flex;
+    justify-content: flex-start; 
+    align-items: flex-start; 
+    margin-top: 700px;
+    margin-left: -1430px;
+    
+    
+}
+
+.about-kp7 {
+    width: 590px;
+    height: 347px;
+    flex-shrink: 0;
+    color: #000;
+    text-align: justify;
+    font-family: Labrada, serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.6; 
+    margin-top: -20px; /****/
+    margin-left: 120px;
+}
+
+.img-kp7 {
+    width: 589px;
+    height: 368px;
+    flex-shrink: 0;
+    margin-right: 120px;
+    margin-left:20px;
+    margin-top: 50px;
+  
+
+}
+
+.kp-img7 {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    background: url(kp7.jpg) lightgray 50% / cover no-repeat; 
+   
+}
+
+/*KP SECTION 8 PHRASE*/
+.kp-section8 {
+    display: flex;
+    justify-content: flex-start; 
+    align-items: flex-start; 
+    margin-top: 1170px;
+    margin-left: -1440px;
+    
+}
+
+.about-kp8 {
+    width: 1220px;
+    height: 173px;
+    flex-shrink: 0;
+    color: #000;
+    text-align: justify;
+    font-family: Labrada, serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.6; 
+    margin-top: 20px; /****/
+    margin-left: 120px;
+}
+
+/*KP SECTION 9RIGHT */
+.kp-section9 {
+    display: flex;
+    justify-content: flex-start; 
+    align-items: flex-start; 
+    margin-top: 350px;
+    margin-left: -1340px;
+    
+}
+
+.about-kp9 {
+    width: 590px;
+    height: 491px;
+    flex-shrink: 0;
+    color: #000;
+    text-align: justify;
+    font-family: Labrada, serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.6; 
+    margin-top: -20px; /****/
+    margin-left: 120px;
+}
+
+.img-kp9 {
+    width: 589px;
+    height: 368px;
+    flex-shrink: 0;
+    margin-right: 120px;
+    margin-left:20px;
+    margin-top: 70px;
+  
+
+}
+
+.kp-img9 {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    background: url(kp9.jpg) lightgray 50% / cover no-repeat; 
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ABOUT US(ABOUT TCM) */
+
+
+.about-section {
+    display: flex;
+    justify-content: flex-start; 
+    align-items: flex-start; 
+    margin-top: 100px;
+    
+}
+
+.about.text h1{
+    width: 309px;
+    height: 45px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: Labrada;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+.about-text {
+    width: 571px;
+    height: 354px;
+    flex-shrink: 0;
+    color: #FFF;
+    text-align: justify;
+    font-family: Labrada;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.6; 
+    margin-top: -20px; /****/
+    margin-left: 160px;
+}
+
+.about-tcmImg {
+    width: 540px;
+    height: 374px;
+    flex-shrink: 0;
+    margin-right: 120px;
+    margin-left:70px;
+  
+
+}
+
+.tcm-img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    background: url(aboutTCM.jpeg) lightgray 50% / cover no-repeat; 
+   
+}
+
+/*section 2*/
+
+.about-section2 {
+    display: flex;
+    justify-content: flex-start; 
+    align-items: flex-start; 
+    margin-top: 80px;
+    margin-left: 100px;
+}
+
+.about.text2 h1{
+    width: 309px;
+    height: 45px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: Labrada;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+.about-text2 {
+    width: 805px;
+    height: 240px;
+    flex-shrink: 0;
+    color: #FFF;
+    text-align: justify;
+    font-family: Labrada;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.6; 
+    margin-top: -20px; /****/
+    margin-left: 50px;
+}
+
+.about-tcmImg2 {
+    width: 271px;
+    height: 268px;
+    flex-shrink: 0;
+    margin-right: 20px;
+    margin-left:70px;
+  
+
+}
+
+.tcm-img2 {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    background: url(anjdelacurz.jpeg) lightgray 50% / cover no-repeat; 
+   
+}
+
+/*section 3*/
+
+.about-section3 {
+    display: flex;
+    justify-content: flex-start; 
+    align-items: flex-start; 
+    margin-top: 300px;
+    margin-left: -1210px;
+}
+
+.about-text3 {
+    width: 1139px;
+    height: 167px;
+    flex-shrink: 0;
+    color: #FFF;
+    text-align: justify;
+    font-family: Labrada;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.6; 
+    margin-top: -20px; /****/
+    margin-left: 50px;
+}
+
+.about.text3 h1{
+    width: 309px;
+    height: 45px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: Labrada;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+
+/*section4*/
+.about-section4 {
+    display: flex;
+    justify-content: flex-start; 
+    align-items: flex-start; 
+    margin-top: 250px;
+    margin-left: -1210px;
+}
+
+.about.text4 h1{
+    width: 309px;
+    height: 45px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: Labrada;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+.about-text4 {
+    width: 827px;
+    height: 135px;
+    flex-shrink: 0;
+    color: #FFF;
+    text-align: justify;
+    font-family: Labrada;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.6; 
+    margin-top: 20px; /****/
+    margin-left: 50px;
+}
+
+.about-tcmImg4 {
+    width: 271px;
+    height: 268px;
+    flex-shrink: 0;
+    margin-right: 20px;
+    margin-left:70px;
+  
+
+}
+
+.tcm-img4 {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    background: url(jndelacruz.jpg) lightgray 50% / cover no-repeat; 
+   
+}
+
+
+/*section 5*/
+.about-section5 {
+    display: flex;
+    justify-content: flex-start; 
+    align-items: flex-start; 
+    margin-top: 260px;
+    margin-left: -1180px;
+}
+
+.about-text5 h1{
+    width: 309px;
+    height: 45px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: Labrada;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

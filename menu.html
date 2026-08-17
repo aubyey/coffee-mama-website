@@ -5,43 +5,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Coffee Mom</title>
 
-   
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+
      <!-- DITO MGA FONTS-->
     <link href="https://fonts.googleapis.com/css2?family=Italianno&family=Kaushan+Script&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
-<style>
-  body {
-            margin: 0;
-            font-family: 'Kaushan Script', cursive;
-        }
-</style>
-    
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">    
 </head>
 <body>
+<!-- Header Section -->
+<header>
+    <div class="logo">
+        <img src="TCM(logo).png" alt="The Coffee Mom"> 
+        <h1>The&nbsp;Coffee&nbsp;Mom</h1>
+    </div>
+    <nav>
+        <ul id="nav-menu" class="nav-menu">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="menu.html" class="active">Menu</a></li>
+            <li><a href="about-us.html">About Us</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="special-offer.html">Special Offers</a></li>
+            <li><a href="career.html">Career</a></li>
+        </ul>
+        <button type = "button" class="toggle"><i class="fa-solid fa-bars"></i></button>
+    </nav>
+</header>
 
-    <!-- Header Section -->
-    <header>
-        <div class="logo">
-            <img src="TCM(logo).png" alt="The Coffee Mom"> 
-            <h1>The&nbsp;Coffee&nbsp;Mom</h1>
-        </div>
-        <nav>
-            <ul>
-                <li><a href="home.html">Home</a></li>
-                <li><a href="menu.html">Menu</a></li>
-                <li><a href="aboutUs.html">About Us</a></li>
-                <li><a href="#blog">Blog</a></li>
-                <li><a href="specialOffer.html">Special Offers</a></li>
-                <li><a href="career.html">Career</a></li>
-            </ul>
-        </nav>
-    </header>
-
-    <section class="Menu-Section">
-        <div class="Menu-content">  
-            <p>Welcome to The Coffee Mom! Explore our menu and discover your new favorite blend today!</p>     
-        </div>
+<section class="menu-section">
+    <div class="menu-content">  
+        <p>Welcome to The Coffee Mom! Explore our menu and discover your new favorite blend today!</p>     
+    </div>
+    <div class="main-menu">
         <div class="menu">
             <button class="coffee-button" onclick="changeImage('coffee')">Coffee</button>
             <button class="tea-button" onclick="changeImage('tea')">Tea</button>
@@ -58,28 +54,20 @@
         <div class="image-container">
             <img id="display-image" src="MenuCover.jpg" alt="Select a drink" />
         </div>
+    </div>
+</section>
 
-        <script src="script.js"></script>
-    
-       
-    </section>
-
-    <footer>
-        <div class="icon-row">
+<footer>
+    <div class="icon-row">
         <div class="icon">
-            
-             <a href="https://www.facebook.com/thecoffeemomph/" target="_blank"><img src="Aafb.jpg" ></a> 
-             <a href="https://www.instagram.com/thecoffeemomph/" target="_blank"><img src="Aaig.jpg"></a>
-             <a href="https://www.tiktok.com/@thecoffeemomph" target="_blank"><img src="Aatt.jpg"></a>
-             <a href="https://www.youtube.com/@thecoffeemomph" target="_blank"><img src="Aayt.jpg"></a>
-       
+            <a href="https://www.facebook.com/thecoffeemomph/" target="_blank"><img src="Aafb.jpg" ></a> 
+            <a href="https://www.instagram.com/thecoffeemomph/" target="_blank"><img src="Aaig.jpg"></a>
+            <a href="https://www.tiktok.com/@thecoffeemomph" target="_blank"><img src="Aatt.jpg"></a>
+            <a href="https://www.youtube.com/@thecoffeemomph" target="_blank"><img src="Aayt.jpg"></a>
         </div>    
-        </div>
-    </footer>
-    
-      
-
-
-
+    </div>
+</footer>
+<script src="script.js"></script>
+<script src="js/navbar.js"></script>
 </body>
 </html>

@@ -1,0 +1,123 @@
+.hero-section {
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px 150px;
+    gap:20px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.home-container{
+    padding: 20px 40px;
+    font-size:40px;
+    font-family: 'Kaushan Script', cursive;
+    width: 70%;
+}
+
+.home-container h1{
+    color: #27160F;
+    line-height: 70px;
+    text-align: center;
+}
+.home-container span{
+    color: #fff;
+}
+
+.time{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000;
+    font-size:25px;
+    font-family: Labrada;
+}
+
+.time-details{
+    align-items: center;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+    font-family: Labrada;
+    font-size:17px;
+    color:#000;
+}
+
+@media(max-width:992px){
+    .hero-section {
+        padding: 30px 70px;
+    }
+    
+    .home-container{
+        padding: 20px;
+        font-size:28px;
+    }
+    
+    .home-container h1{
+        line-height: 55px;
+    }
+    .time{
+        font-size:20px;
+    }
+    .time-details{
+        font-size:15px;
+    }
+}
+
+@media(max-width:767px){
+   
+    .hero-section {
+        padding: 30px;
+        height: 100vh;
+    }
+    
+    .home-container {
+        padding: 20px;
+        font-size: 22px;
+    }
+    
+    
+    .home-container h1{
+        line-height: 45px;
+        background: rgba(255, 255, 255, 0.3); /* White with 30% opacity */
+        border-radius: 10px; /* Optional, for rounded corners */
+        backdrop-filter: blur(10px); /* Creates the frosted glass effect */
+        -webkit-backdrop-filter: blur(10px); /* For Safari support */
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    }
+    .time{
+        font-size:15px;
+        text-align: center;
+    }
+    .time-details{
+        font-size:13px;
+    }
+}
+
+
+@media(max-width:600px){
+   
+    .hero-section {
+        padding: 20px 10px;
+        background-position: -450px center;
+    }
+    
+    .home-container{
+        padding: 20px;
+        font-size:18px;
+        width: 100%;
+    }
+    
+    .home-container h1{
+        line-height: 45px;
+    }
+    .time,
+    .time-details{
+        width: 100%;
+    }
+   
+}
